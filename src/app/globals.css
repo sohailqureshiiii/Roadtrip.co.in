@@ -40,3 +40,1348 @@ a {
     color-scheme: dark;
   }
 }
+
+/* -------------- /// --------------  */
+
+.extra-tp-marg-insdj {
+  margin-top: 5em;
+}
+
+.third-para-header-at-ijnck {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #666;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+.hone-large-title-fr-hdr-in-main-layout {
+  color: #171717;
+  text-align: center;
+  line-height: 105px;
+  /* font-size: 70px; */
+  font-weight: 700;
+  letter-spacing: -5px;
+  font-size: 85px;
+}
+.flx-section-wihtjd {
+  width: 80em;
+  display: flex;
+  justify-content: space-between;
+  gap: 5em;
+}
+.flx-with-img-and-hdr-and-para {
+  display: block;
+  gap: 25px;
+}
+.flx-fr-im-of-hwye-dis {
+  display: flex;
+  justify-content: center;
+}
+.border-for-backgrnd-img-left {
+  display: flex;
+  justify-content: center;
+  width: 4.5em;
+  border-radius: 10px;
+  height: 4.5em;
+  margin-bottom: 1em;
+  background: #0c0a00;
+  padding: 10px;
+}
+.hdr-at-three-section-of-why {
+  letter-spacing: -1px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+.para-at-three-section-of-why-choose-us {
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 0.8em;
+  text-align: center;
+}
+.flx-with-img-and-hdr-and-para {
+  display: block;
+  gap: 25px;
+}
+.flx-fr-im-of-hwye-dis {
+  display: flex;
+  justify-content: center;
+}
+
+.Backround-image-for-home-aifdsj {
+  width: 100%;
+  height: 46em;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.extra-tp-paddidng-insdj {
+  padding-top: 3em;
+}
+.back-wgite-firian {
+  background: #fff;
+}
+
+.mrgin-tp-sjcnskc {
+  margin-top: 9em;
+}
+
+.headr-for-webste-in-trensport-nalhotra {
+  line-height: 120px;
+  text-align: center;
+  font-size: 110px;
+  font-weight: 600;
+}
+
+.special-padding-nd-top-senkjc {
+  padding-top: 9em;
+}
+
+.para-cete-rherd-aloknowa {
+  text-align: center;
+  width: 50em;
+  line-height: 28px;
+  font-size: 19px;
+  padding-top: 15px;
+}
+
+.flx-indc-aikjdna {
+  display: flex;
+  justify-content: center;
+}
+.spamcieb-betwwedkj {
+  gap: 5em;
+  margin-top: 2em;
+}
+
+.button-for-cntct-us-sonf {
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 16px;
+  display: block;
+  cursor: pointer;
+  padding: 15px 45px;
+  font-size: 20px;
+  background: #000;
+  color: #fff;
+}
+.btn-frrr-knw-mre-at-sdjn {
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 16px;
+  display: block;
+  cursor: pointer;
+  padding: 15px 45px;
+  font-size: 20px;
+  box-shadow: 0 0 25px #e0c5b28c;
+}
+/* ------------ Navbar ---------  */
+
+.manana-logo-of-navbar-sejba {
+  width: 100%;
+  height: 120px;
+}
+
+.background-for-home-navigationbar {
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  position: fixed;
+  backdrop-filter: saturate(180%) blur(5px);
+  top: 0;
+  width: 100%;
+  z-index: 101;
+}
+
+.layout-box-fr-navigation-sub-bx {
+  width: 80em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px;
+}
+
+.layout-box-fr-logo-in-jdwla {
+  padding-top: 0px;
+}
+
+.ul-list-for-navtion-at-home-screen-ajk {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+}
+
+.nav-tabs-links-at-Homescreen {
+  padding: 10px 25px 10px 28px;
+  color: #f67d48;
+  font-size: 1px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.Inactive-nav-tabs-links-at-Homescreen {
+  padding: 10px 25px 10px 28px;
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.left-first-image-at-top-section-of-websites-sd {
+  width: 600px;
+}
+
+.internal-box-for-drop-down-in-navbar {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 5em;
+}
+
+.header-at-drp-dwn-at-navbar {
+  font-size: 18px;
+  padding-bottom: 20px;
+  color: #000;
+}
+
+.list-of-under-services-at-dropdwn {
+  font-size: 16px;
+  padding-bottom: 15px;
+  color: rgb(43 43 43 / 66%);
+  cursor: pointer;
+}
+
+.btn-at-homepage-navbar-jsd {
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 16px;
+  background: none;
+  color: #fff;
+  box-shadow: 0 0 0 #fec1958c;
+  display: block;
+  cursor: pointer;
+  background: #000;
+  letter-spacing: 1px;
+}
+.display-none-at-hamburger-iohs {
+  display: none;
+}
+
+.extra-padding-for-botom-third-sections {
+  padding-top: 85px;
+}
+
+.headerDropdownMenu {
+  margin: 0;
+  padding: 0;
+  border-bottom-left-radius: 5px;
+  background: #0000000f;
+  border-bottom-right-radius: 5px;
+}
+.headerDropdownMenu li {
+  list-style: none;
+}
+.headerDropdownMenu li a {
+  display: block;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+  color: #212121;
+  text-decoration: none;
+}
+.headerDropdownMenu li a:hover {
+  background-color: #004c3f;
+  color: #000;
+  cursor: pointer;
+  padding: 15px 20px;
+}
+
+.dropdownMenu {
+  background: #fff;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border-radius: 2px;
+  -webkit-animation: conditionalOpen 1s normal forwards ease-in-out;
+  -moz-animation: conditionalOpen 1s normal forwards ease-in-out;
+  animation: conditionalOpen 1s normal forwards ease-in-out;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+
+.dropdown {
+  right: 292px;
+  position: absolute;
+  width: 60em;
+  transform: translateX(50%);
+  padding: 15px;
+  /* background: #000; */
+  z-index: 101;
+  display: none;
+  top: 20px;
+}
+.lx-in-ul-plus-list {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+/* ------------- navbaar Model -------------  */
+
+.modalFixedBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}
+
+.Container-of-mobile-navigationbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 101;
+  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.419);
+  overflow-x: scroll;
+  -webkit-animation: conditionalOpen 1s normal forwards ease-in-out;
+  -moz-animation: conditionalOpen 1s normal forwards ease-in-out;
+  animation: conditionalOpen 1s normal forwards ease-in-out;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+
+.flx-in-logo-and-links-of-pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flx-in-logo-and-links-of-pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pad-at-navigatoio-bxds {
+  padding: 20px;
+}
+.links-for-mobile-view-innavbar-modla {
+  padding: 15px 0px;
+  border-bottom: 1px solid #000;
+  color: #000;
+  font-size: 18px;
+}
+.brdr-tp-adk {
+  border-top: 1px solid #000;
+}
+.header-at-drp-dwn-at-navbar {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.white-clroisj {
+  color: #000;
+}
+.lets-connect-atmobile-view-sect {
+  display: none;
+}
+
+.lx-in-ul-plus-list {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+/* ------------- FAQ SECTION -------------  */
+.section-header-at-home-page-view {
+  color: #000;
+  font-size: 25px;
+}
+
+.section-header-at-home-page-view {
+  font-size: 18px;
+}
+
+.ctfvybu {
+  height: 100vh;
+  width: 100%;
+}
+
+/* -------  */
+.bur-colr-section-at-ssecound-sct {
+  background: #151414;
+  padding: 5em 0em 3em 0em;
+  margin-top: 11em;
+}
+.displayflexat-ns {
+  display: flex;
+  justify-content: center;
+}
+.header-layout-at-main-section {
+  width: 75.5em;
+}
+.section-main-hdr-fr-wht-sec {
+  font-weight: 600;
+  color: #fff;
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+.hone-section-at-rodn-skk {
+  padding-top: 15px;
+  font-size: 62px;
+  color: #fff;
+}
+.flx-nin-two-compo-at-sbic {
+  display: flex;
+  gap: 5em;
+  justify-content: center;
+}
+.widht-for-para-section-at-secound-sect {
+  width: 45em;
+  margin-top: 4em;
+}
+.first-para-at-schl-sectio-sjkdjs {
+  font-size: 18px;
+  line-height: 30px;
+}
+.third-left-top-minus-sect {
+  border-radius: 10px;
+  width: 25em;
+  background: #cc9d48;
+  text-align: center;
+  margin-top: -11.5em;
+  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+}
+.back-rnd-white-at-left-section {
+  padding-top: 49px;
+  margin-top: 1em;
+  background: #fff;
+  border-radius: 0px 10px 0px 10px;
+}
+.fc-facts-for-ajdksn {
+  font-weight: 800;
+  color: #174a6a;
+  letter-spacing: 1px;
+}
+.diply-cemntr-at-sction-for-whitelisb {
+  display: flex;
+  justify-content: center;
+}
+.color-line-at-center-of-left-section {
+  height: 5px;
+  background: red;
+  width: 50px;
+  margin: 1em 0em;
+}
+.number-achienved-by-shools-sdjk {
+  font-weight: 800;
+  font-size: 55px;
+  padding-bottom: 10px;
+  padding-top: 43px;
+}
+.secound-line-of-sleft-sdide {
+  font-size: 13px;
+  font-weight: 800;
+  color: #174a6a;
+  letter-spacing: 1px;
+}
+
+.para-at-side-ltions {
+  font-size: 13px;
+  padding-top: 10px;
+  letter-spacing: 0.5px;
+  color: #174a6aa1;
+  padding-bottom: 15px;
+}
+/* ------------ Footer Css starts -------------- */
+
+.back-grond-for-footer-at-bottom-end {
+  background: #000;
+}
+
+.displayflexat-ns {
+  display: flex;
+  justify-content: center;
+}
+
+.padding-toop-for-footer {
+  margin-top: 14em;
+}
+.header-layout-at-main-section {
+  padding-top: 30px;
+  width: 80em;
+}
+.flxin-for-sdfg {
+  display: flex;
+  padding-bottom: 45px;
+}
+
+.white-box-with-background-on-footer-left {
+  border: 1px solid #000;
+  background: #fff;
+  padding: 40px 70px 40px 40px;
+  margin-top: -10em;
+  border-radius: 10px;
+}
+.header-at-footer-for-company-logo {
+  margin-top: 0.5em;
+  font-size: 32px;
+}
+.secound-para-header-at-footer-line {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #3d3d3d;
+  padding-bottom: 5px;
+}
+.folow-us-header-at-footer-in-botttom {
+  margin-top: 1em;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.flx-in-for-follow-btn-at-bottom-last-end {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.padding-for-the-adress-and-other-opt-at-footer {
+  padding: 3em 3em 0em 3em;
+}
+
+.flx-in-use-full-loink-and-servoces {
+  display: flex;
+  gap: 3em;
+}
+.usefull-links-in-fotters-sectios-cjhs {
+  font-size: 23px;
+  font-weight: 600;
+  padding-bottom: 15px;
+  color: #fff;
+}
+.botom-line-of-luse-fil-links-snidr {
+  border-radius: 15px;
+  width: 117px;
+  height: 5px;
+  background: #fff;
+  margin-bottom: 2em;
+}
+.links-name-at-footer-secctions-djs {
+  padding-bottom: 15px;
+  font-size: 18px;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.links-name-at-footer-secctions-djs:hover {
+  padding-bottom: 15px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+.usefull-links-in-fotters-sectios-cjhs {
+  font-size: 23px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.botom-line-of-luse-fil-links-snidr {
+  border-radius: 15px;
+  width: 117px;
+  height: 5px;
+  background: #fff;
+  margin-bottom: 2em;
+}
+.wid-sjdkf-wfw-wjepfw-rwsd {
+  width: 80em;
+}
+
+.big-width-border-at-vskjskmf-dkf {
+  width: 100%;
+  height: 3.5px;
+  background-color: #fffc;
+  margin-bottom: 2em;
+  border-radius: 15px;
+}
+.dis-dss-sddjk-webksd-zcnd {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+.flx-for-img-and-office-country {
+  display: block;
+  gap: 15px;
+}
+.service-header-at-footer-section {
+  padding-bottom: 15px;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
+.adress-para-at-footer-sd {
+  color: #f5f5f5;
+  font-size: 16px;
+  margin-top: 0px;
+  line-height: 25px;
+}
+.udsjdoicsklslkm {
+  text-align: center;
+  padding-bottom: 2em;
+  color: #fff;
+}
+.got-ques-header-at-faqs {
+  font-size: 46px;
+  line-height: 63px;
+  letter-spacing: -3px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.flx-fr-faq-questionand-plus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.extralarge-font {
+  font-size: 48px;
+  color: #f67d48;
+}
+.faq-answer-at-faq-sectionsk {
+  font-size: 18px;
+  line-height: 30px;
+}
+.cntr-btwn-lines-at-faq-sec {
+  border-radius: 50px;
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.375);
+}
+.flx-fr-faq-questionand-plus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.white-txt-at-faq-sect {
+  color: #000;
+  font-size: 22px;
+}
+
+/* ------- Contact Form ----------  */
+
+.main-box-of-ctnct-info-inpts-and-cnt {
+  border-radius: 8px;
+  display: flex;
+  margin-top: 6.5em;
+  margin-bottom: 3em;
+}
+
+/* ------- Contact Form ----------  */
+
+.first-bx-f-left-ctn-dhjd {
+  background: #6d7bdf;
+  width: 41em;
+  padding: 30px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.esr-white-line-in-side-ak {
+  border-left: 5px solid #fff;
+  padding: 0px 0px 0px 30px;
+  margin-top: 150px;
+}
+.left-text-content-at-cnt-bx {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 55px;
+  margin-bottom: 0.6em;
+  color: #000;
+  padding-top: 30px;
+}
+.right-bx-of-a-inouts-iand-sjm {
+  padding: 0px 30px 0px 30px;
+}
+.fnt-sz-fr-cnt-us-akjd {
+  font-size: 32px;
+}
+.uyjs-sks-acs-wsdcsd-dc {
+  padding: 10px 0px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000a1;
+}
+.fr-mrgin-tp-sddjvdm {
+  margin-top: 3em;
+}
+.flx-in-input-at-cntx-btn-snd {
+  display: flex;
+  gap: 2em;
+}
+.brder-at-inpit-and-img-sect-isn {
+  border-radius: 5px;
+  display: flex;
+  padding: 0px 15px 0px 0px;
+  gap: 1em;
+  border: 2px solid #e9ebef;
+  width: 25em;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-fr-cnt-aph-snd {
+  border: none;
+  font-size: 21px;
+  width: 100%;
+  padding: 15px;
+}
+.pad-top-akfkdos-fdk {
+  margin-top: 1em;
+}
+.fr-dsks-sjkds-mcks-vmk {
+  display: flex;
+  width: 100%;
+  border: 2px solid #e9ebef;
+  margin-top: 1.5em;
+  border-radius: 5px;
+}
+.for-textarea-at-cntx-sksjd {
+  width: 781px;
+  height: 160px;
+  border: none;
+  border-radius: 5px;
+  max-width: 500px;
+  max-height: 160px;
+  padding: 15px;
+  font-size: 16px;
+  min-width: 781px;
+  min-height: 160px;
+}
+.jhdes-fr-panc-sdk {
+  margin-top: 15px;
+}
+.send-msg-btn-st-ancjs-bcks {
+  padding: 20px 50px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 0 0 0 #fec1958c;
+  display: block;
+  cursor: pointer;
+  background: #000;
+  margin-top: 1em;
+}
+
+/* ------- About us page ------  */
+
+.para-at-main-layout-atnew-sec {
+  color: #666;
+  text-align: center;
+  font-size: 26px;
+  padding: 0em 1em;
+  margin-top: 25px;
+  letter-spacing: -0.9px;
+}
+
+.button-fr-srvices-pagr-athds-jhdsn {
+  margin-top: 35px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 16px;
+  display: block;
+  cursor: pointer;
+  padding: 15px 80px;
+  font-size: 22px;
+  background: #000;
+  color: #fff;
+}
+
+.scrolling_text {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  white-space: nowrap;
+  margin: 2em 0em 4em 0em;
+  gap: 2em;
+}
+
+.text {
+  color: #3a1240;
+  animation: animate_text 30s linear infinite; /* The animation property */
+  font-weight: 800;
+}
+
+.text span {
+  margin: 0 20px;
+  font-size: 30px;
+  letter-spacing: -1px;
+  animation-name: slideInLeft;
+  animation-timing-function: ease-in;
+  /* transform: translateX(-150px); */
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 8s linear infinite;
+  display: inline-block;
+}
+
+@keyframes animate_text {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+.vsion-and-aim-padding-top-extra {
+  padding-top: 15px;
+}
+.extra-border-with {
+  width: 350px;
+  height: 3px;
+  background: #000;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.backgroud-orange-at-fourth-section-in-os {
+  background: #000;
+  margin-top: 45px;
+}
+.padding-bottom-at-orangesec {
+  padding: 60px 0px;
+}
+.flx-for-misson-and-vison-section-area {
+  display: flex;
+  gap: 8em;
+}
+.header-of-our-vision-white-clor {
+  font-size: 30px;
+  color: #fff;
+}
+.border-section-white-down-at-vison {
+  margin-top: 10px;
+  width: 150px;
+  background: #fff;
+  height: 3px;
+}
+.section-header-at-bout-page-view {
+  color: #f67d48;
+  font-size: 25px;
+}
+
+.para-at-vision-sjks-sknd {
+  padding-top: 15px;
+  font-size: 22px;
+  color: #fff;
+  line-height: 30px;
+}
+.tp-moblr-skjdo {
+  margin-top: 0em;
+}
+.section-header-at-about-page-view {
+  font-size: 30px;
+}
+
+/* -------------- Service page css starts -------------- */
+.section-fourth-backgrnd-blckush-tyoe-sjnd {
+  background: #2e2b2b;
+  margin: 0em 0em;
+  padding: 5em 0em 3em 0em;
+  height: 64em;
+  margin-top: 6em;
+}
+.main-section-for-bottom-tooasm {
+  margin-top: 5em;
+}
+.testinmoai-sibcjse {
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+.secound-hdr-at-ieronlsdh {
+  color: #fff;
+  padding-top: 15px;
+  font-size: 42px;
+  text-align: center;
+  font-weight: 600;
+}
+.flx-in-fr-testimonial-parts-at-sectio {
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+  gap: 8em;
+}
+.container-at-testimon-white-badck {
+  background: white;
+  width: 30.4em;
+  padding: 50px 0px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+}
+.paras-text-at-testimonial-sectuoas-sdsfd {
+  padding-right: 35px;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: #000;
+  padding-left: 35px;
+  padding-bottom: 25px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.student-name-in-testimonial {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: 800;
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+
+.img-at-vghjsc-adjcn-naj-asd {
+  width: 10em;
+  color: transparent;
+  height: 10em;
+}
+.flxinfr-jhed-fjsfkad {
+  display: flex;
+  justify-content: center;
+}
+.dewrgtdf-poqwdanklx {
+  margin-top: 25em;
+}
+/* ----------- Style starts for responsive -------  */
+
+@media (min-width: 320px) and (max-width: 452px) {
+  .layout-box-fr-navigation-sub-bx {
+    width: 100%;
+    padding: 0px 15px;
+    background: #fff;
+  }
+  .Backround-image-for-home-aifdsj {
+    width: 100%;
+    height: 60%;
+    display: none;
+  }
+  .ul-list-for-navtion-at-home-screen-ajk {
+    display: none;
+  }
+  .btn-at-homepage-navbar-jsd {
+    display: none;
+  }
+  .header-at-drp-dwn-at-navbar {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .header-at-drp-dwn-at-navbar {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .button-for-cntct-us-sonf {
+    width: 100%;
+  }
+  .flx-indc-aikjdna {
+    display: block;
+  }
+  .btn-frrr-knw-mre-at-sdjn {
+    width: 100%;
+    margin-top: 1em;
+  }
+  .headr-for-webste-in-trensport-nalhotra {
+    line-height: 60px;
+    text-align: center;
+    font-size: 48px;
+  }
+  .para-cete-rherd-aloknowa {
+    text-align: center;
+    width: 100%;
+    line-height: 20px;
+    font-size: 13px;
+    padding-top: 10px;
+  }
+  .Backround-image-for-home-aifdsj {
+    height: 60%;
+  }
+  .header-at-drp-dwn-at-navbar {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .display-none-at-hamburger-iohs {
+    display: block;
+  }
+  .third-para-header-at-ijnck {
+    font-size: 16px;
+    padding-top: 0em;
+    padding-bottom: 3em;
+  }
+  .only-center-this-dhr {
+    text-align: center;
+  }
+  .hone-large-title-fr-hdr-in-main-layout {
+    letter-spacing: -3px;
+    font-size: 50px;
+    text-align: left;
+    line-height: 58px;
+  }
+  .white-box-with-background-on-footer-left {
+    padding: 40px 40px 40px 25px;
+  }
+  .pad-left-for-hdr-in-mob {
+    padding: 0px 15px;
+  }
+
+  .flx-section-wihtjd {
+    width: 100%;
+    display: block;
+    padding: 15px;
+  }
+  .flx-with-img-and-hdr-and-para {
+    display: block;
+  }
+  .border-for-backgrnd-img-left {
+    width: 5em;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  .para-at-three-section-of-why-choose-us {
+    line-height: 26px;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 2em;
+  }
+  .flx-xards-with-rspo-hoer-effects-festures {
+    display: block;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  .more-fetaures-hdr-sinds-jndjs {
+    margin-right: 0.7em;
+    color: #0d0e0e;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+    margin: 1em 0;
+  }
+  .flx-comp-insd-at-fet-scrn {
+    display: block;
+    gap: 50px;
+    padding: 0;
+  }
+  .flex-div-for-component-feature {
+    display: flex;
+    justify-content: center;
+    /* height: 26em; */
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 2px 3px rgb(25 25 25 / 25%);
+    margin: 3em 0;
+  }
+  .contains-all-the-content-of-feature-compnentr {
+    z-index: 0;
+    background-color: white;
+    width: 18em;
+    height: 4.5em;
+    overflow: hidden;
+    display: grid;
+  }
+  .width-set-for-feature-component-cc:hover
+    .contains-all-the-content-of-feature-compnentr {
+    transform: none;
+    transition: none;
+    overflow: auto;
+  }
+  .title-of-the-component-cc {
+    display: block;
+    height: 2.2em;
+    padding-top: 12px;
+    align-items: flex-end;
+    font-family: Calibre, Arial, sans-serif;
+    font-size: 16px;
+    /* line-height: 1; */
+    font-weight: 500;
+    text-align: center;
+  }
+  .flex-div-contain-buy-now-and-learn-more-link-for-the-component {
+    text-align: center;
+  }
+
+  .number-achienved-by-shools-sdjk {
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  .manana-logo-of-navbar-sejba {
+    width: 100%;
+    height: 60px;
+  }
+
+  /* ------ Footer -----  */
+  .displayflexat-ns {
+    display: block;
+  }
+  .padding-toop-for-footer {
+    margin-top: 10em;
+  }
+  .header-layout-at-main-section {
+    width: 100%;
+    padding: 50px 15px 0px 15px;
+  }
+  .flxin-for-sdfg {
+    display: block;
+  }
+  .padding-for-the-adress-and-other-opt-at-footer {
+    padding: 25px 0px 0px 0px;
+  }
+  .flx-in-use-full-loink-and-servoces {
+    display: block;
+  }
+  .wid-sjdkf-wfw-wjepfw-rwsd {
+    width: 100%;
+    padding: 0px 15px;
+  }
+  .dis-dss-sddjk-webksd-zcnd {
+    display: block;
+  }
+  .tp-in-ftr-mobile-view-only {
+    margin-top: 1em;
+  }
+  .section-header-at-home-page-view {
+    font-size: 18px;
+  }
+  .got-ques-header-at-faqs {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+  .white-txt-at-faq-sect {
+    font-size: 17px;
+  }
+  .faq-answer-at-faq-sectionsk {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .back-rnd-white-at-left-section {
+    border-radius: 0px;
+  }
+
+  /* ---------  */
+
+  .bur-colr-section-at-ssecound-sct {
+    /* background: #088ac9; */
+    padding: 5em 0em 3em 0em;
+    margin-top: 3em;
+  }
+  .displayflexat-ns {
+    display: block;
+  }
+  .header-layout-at-main-section {
+    width: 100%;
+  }
+  .section-main-hdr-fr-wht-sec {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .hone-section-at-rodn-skk {
+    font-size: 32px;
+  }
+  .flx-nin-two-compo-at-sbic {
+    display: block;
+  }
+  .widht-for-para-section-at-secound-sect {
+    width: 100%;
+    margin-top: 0px;
+    padding: 15px;
+  }
+  .first-para-at-schl-sectio-sjkdjs {
+    font-size: 14px;
+  }
+  .third-left-top-minus-sect {
+    width: 90%;
+    margin: 15px;
+    border-radius: 0;
+  }
+  /* ------- Contact Form ----------  */
+  .main-box-of-ctnct-info-inpts-and-cnt {
+    display: block;
+  }
+  .first-bx-f-left-ctn-dhjd {
+    width: 100%;
+    padding: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-bottom: 2em;
+  }
+  .esr-white-line-in-side-ak {
+    padding: 0px 0px 0px 30px;
+    margin-top: 30px;
+  }
+  .left-text-content-at-cnt-bx {
+    font-size: 45px;
+    line-height: 54px;
+  }
+  .right-bx-of-a-inouts-iand-sjm {
+    padding: 0px;
+  }
+  .fr-mrgin-tp-sddjvdm {
+    margin-top: 1em;
+  }
+  .flx-in-input-at-cntx-btn-snd {
+    display: block;
+  }
+  .brder-at-inpit-and-img-sect-isn {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .for-textarea-at-cntx-sksjd {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .send-msg-btn-st-ancjs-bcks {
+    width: 100%;
+  }
+
+  /* ---------- About Us ----------  */
+
+  .hone-large-title-fr-hdr-in-main-layout {
+    letter-spacing: -3px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 58px;
+  }
+  .para-at-main-layout-atnew-sec {
+    padding: 0px;
+    text-align: left;
+    font-size: 20px;
+  }
+  .button-fr-srvices-pagr-athds-jhdsn {
+    margin-top: 35px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+    padding: 15px 80px;
+    font-size: 22px;
+    background: #000;
+    color: #fff;
+    border-radius: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  .flx-for-img-and-office-country {
+    display: flex;
+    gap: 15px;
+  }
+  .scrolling_text {
+    margin: 2em 0em 2em 0em;
+  }
+  .vsion-and-aim-padding-top-extra {
+    padding-top: 0px;
+  }
+  .backgroud-orange-at-fourth-section-in-os {
+    margin-top: 30px;
+  }
+  .flx-for-misson-and-vison-section-area {
+    display: block;
+  }
+  .header-of-our-vision-white-clor {
+    font-size: 22px;
+  }
+  .border-section-white-down-at-vison {
+    width: 117px;
+    height: 2px;
+  }
+  .para-at-vision-sjks-sknd {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .tp-moblr-skjdo {
+    margin-top: 2em;
+    padding-bottom: 50px;
+  }
+  .section-fourth-backgrnd-blckush-tyoe-sjnd {
+    height: 100%;
+    padding: 3em 15px 3em 15px;
+  }
+  .testinmoai-sibcjse {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .secound-hdr-at-ieronlsdh {
+    font-size: 32px;
+  }
+  .flx-in-fr-testimonial-parts-at-sectio {
+    display: block;
+  }
+  .container-at-testimon-white-badck {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 25px 0px;
+  }
+  .paras-text-at-testimonial-sectuoas-sdsfd {
+    font-size: 12px;
+  }
+  .dewrgtdf-poqwdanklx {
+    margin-top: 0em;
+  }
+  .section-fourth-backgrnd-blckush-tyoe-sjnd {
+    margin-top: 4em;
+  }
+  .extra-tp-marg-insdj {
+    margin-top: 2em;
+  }
+  .extra-tp-paddidng-insdj {
+    padding-top: 0em;
+  }
+  .special-padding-nd-top-senkjc {
+    padding-top: 3em;
+  }
+
+  /* -------------- Service page css starts -------------- */
+}
