@@ -16,7 +16,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
 
-export const Homepage = () => {
+const Homepage = () => {
   const [show, setShow] = useState(false);
   // FAQ----
   const [faq1, setFaq1] = useState(false);
@@ -415,3 +415,4 @@ export const Homepage = () => {
     </>
   );
 };
+export default Homepage;
