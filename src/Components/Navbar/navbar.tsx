@@ -28,10 +28,10 @@ export const Navbar = () => {
           </Link>
           <div className="lx-in-ul-plus-list">
             <ul className="ul-list-for-navtion-at-home-screen-ajk">
-              <li className="nav-tabs-links-at-Homescreen">
+              <li className="Inactive-nav-tabs-links-at-Homescreen">
                 <Link href="/"> Home</Link>
               </li>
-              <li className="nav-tabs-links-at-Homescreen">
+              <li className="Inactive-nav-tabs-links-at-Homescreen">
                 <Link href="/aboutus"> About Us</Link>
               </li>
               <li className="Inactive-nav-tabs-links-at-Homescreen">
