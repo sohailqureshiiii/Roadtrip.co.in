@@ -59,13 +59,15 @@ const NavModal = (props) => {
               <Link href="/services">
                 <p className="links-for-mobile-view-innavbar-modla">Services</p>
               </Link>
+              <Link href="/contactus">
+                <p className="links-for-mobile-view-innavbar-modla">
+                  Contact Us
+                </p>
+              </Link>
             </div>
             <div className="pad-at-navigatoio-bxds">
               <Link href="/contactus">
-                <button
-                  // className="lets-cnt-btn-at-main-layout"
-                  className="lets-connect-atmobile-view-sect"
-                >
+                <button className="lets-connect-atmobile-view-sect">
                   Contact Us
                 </button>
               </Link>
