@@ -34,23 +34,22 @@ export const Footer = () => {
               </div>
               <p className="folow-us-header-at-footer-in-botttom">Follow Us</p>
               <div className="flx-in-for-follow-btn-at-bottom-last-end">
-                <Link
-                  href={
-                    "https://www.linkedin.com/company/advertmarketers/?viewAsMember=true"
-                  }
-                >
+                <Link href={"/"}>
                   <Image src={LinkedIn} width={20} alt="LinkedIn" />
                 </Link>
-                <Link href={"https://www.facebook.com/advertmarketerspvtltd/"}>
+                <Link href={"/"}>
                   <Image src={Faceboook} width={20} alt="Facebook" />
                 </Link>
-                <Link href={"https://twitter.com/advertmarketers"}>
+                <Link href={"/"}>
                   <Image src={Twitter} width={20} alt="Twitter" />
                 </Link>
               </div>
             </div>
             <div className="padding-for-the-adress-and-other-opt-at-footer">
-              <div className="flx-in-use-full-loink-and-servoces">
+              <div
+                className="flx-in-use-full-loink-and-servoces"
+                style={myFont.style}
+              >
                 <div>
                   <div className="usefull-links-in-fotters-sectios-cjhs">
                     Useful Links
@@ -61,7 +60,9 @@ export const Footer = () => {
                       <Link href="/">Home</Link>
                     </div>
                     <div className="links-name-at-footer-secctions-djs">
-                      <Link href="/aboutus">About Us</Link>
+                      <Link href="/aboutus" style={myFont.style}>
+                        About Us
+                      </Link>
                     </div>
                     <div className="links-name-at-footer-secctions-djs">
                       <Link href="/services">Services</Link>

@@ -1,14 +1,36 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar } from "../Components/Navbar/navbar";
 import "../app/globals.css";
 const myFont = localFont({ src: "../../Fonts/Montserrat-Medium.ttf" });
 import localFont from "next/font/local";
 import { Footer } from "../Components/Footer/footer";
 import Link from "next/link";
+import Head from "next/head";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const aboutus = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: "1000",
+    });
+  }, []);
+
   return (
     <>
+      <Head>
+        <title>
+          About Us | Malhotracitytrans - Corporate Transportation Experts
+        </title>
+        <meta
+          name="description"
+          content="Learn about Malhotracitytrans, a leader in employee transportation management. Discover our mission, vision, and commitment to safe and efficient corporate travel."
+        />
+        <meta
+          name="keywords"
+          content="About Malhotracitytrans, Employee Transport Solutions, Corporate Travel Management, Safe Employee Commutes, Corporate Mobility"
+        />
+      </Head>
       <Navbar />
       {/* ------------------  */}
       <div
@@ -16,13 +38,19 @@ const aboutus = () => {
         style={myFont.style}
       >
         <div className="header-layout-at-main-section">
-          <h1 className="hone-large-title-fr-hdr-in-main-layout">
+          <h1
+            className="hone-large-title-fr-hdr-in-main-layout"
+            data-aos="fade-up"
+          >
             Welcome to Malhotracitytrans
           </h1>
-          <h1 className="hone-large-title-fr-hdr-in-main-layout">
+          <h1
+            className="hone-large-title-fr-hdr-in-main-layout"
+            data-aos="fade-up"
+          >
             Smart Employee Transportation Solutions
           </h1>
-          <p className="para-at-main-layout-atnew-sec">
+          <p className="para-at-main-layout-atnew-sec" data-aos="fade-up">
             At Malhotracitytrans, we specialize in providing safe, reliable, and
             efficient transportation solutions for corporate employees. Our
             advanced Employee Transportation Management system ensures seamless
@@ -31,7 +59,10 @@ const aboutus = () => {
           </p>
           <div className="displayflexat-ns">
             <Link href={"/services"}>
-              <button className="button-fr-srvices-pagr-athds-jhdsn">
+              <button
+                className="button-fr-srvices-pagr-athds-jhdsn"
+                data-aos="fade-up"
+              >
                 Explore Service
               </button>
             </Link>
@@ -51,7 +82,10 @@ const aboutus = () => {
         <div className="header-layout-at-main-section padding-ionlude-for-mobile-view-sds">
           <div className="flx-nin-two-compo-at-sbic">
             <div className="widht-for-para-section-at-secound-sect">
-              <p className="first-para-at-schl-sectio-sjkdjs">
+              <p
+                className="first-para-at-schl-sectio-sjkdjs"
+                data-aos="fade-up"
+              >
                 Welcome to Malhotracitytrans, your trusted partner in smart
                 corporate transportation solutions. We specialize in providing
                 seamless, safe, and efficient employee transport services
@@ -76,28 +110,33 @@ const aboutus = () => {
             </div>
             <div className="third-left-top-minus-sect" style={myFont.style}>
               <div className="back-rnd-white-at-left-section">
-                <p className="fc-facts-for-ajdksn">Achievements So Far</p>
+                <p className="fc-facts-for-ajdksn" data-aos="fade-up">
+                  Achievements So Far
+                </p>
                 <div className="diply-cemntr-at-sction-for-whitelisb">
-                  <div className="color-line-at-center-of-left-section"></div>
+                  <div
+                    className="color-line-at-center-of-left-section"
+                    data-aos="fade-up"
+                  ></div>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                   <p className="number-achienved-by-shools-sdjk">100%</p>
                   <p className="secound-line-of-sleft-sdide">Work Done!</p>
                   <p className="para-at-side-ltions"></p>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                   <p className="number-achienved-by-shools-sdjk">100%</p>
                   <p className="secound-line-of-sleft-sdide">Staff Guarantee</p>
                   <p className="para-at-side-ltions"></p>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                   <p className="number-achienved-by-shools-sdjk">100%</p>
                   <p className="secound-line-of-sleft-sdide">
                     Safety & Security
                   </p>
                   <p className="para-at-side-ltions"></p>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                   <p className="number-achienved-by-shools-sdjk">145+</p>
                   <p className="secound-line-of-sleft-sdide">
                     Professional Team
@@ -110,7 +149,7 @@ const aboutus = () => {
         </div>
       </div>
       {/* ---------------- */}
-      <div className="scrolling_text" style={myFont.style}>
+      <div className="scrolling_text" style={myFont.style} data-aos="fade-up">
         <div className="text">
           <span>Working Hours : 07:00am to 05:30pm</span>
           <span> Phone : +91 98928 14653</span>

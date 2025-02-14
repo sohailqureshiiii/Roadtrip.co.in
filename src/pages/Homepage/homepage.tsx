@@ -35,18 +35,16 @@ const Homepage = () => {
     <>
       <Head>
         <meta
+          name="title"
+          content="Malhotracitytrans | Smart Employee Transportation Solutions"
+        />
+        <meta
           name="description"
-          content="The search for quality leads is never-ending, but with the right solutions, your business can reach the pinnacle of success."
+          content="Malhotracitytrans offers reliable, safe, and efficient employee transportation solutions. Explore our tech-enabled corporate shuttle services and on-demand cabs."
         />
         <meta
           name="keywords"
-          content="business, B2B, B2B Solutions, B2B services, lead generation, ROI,LEADS GENERATED,
-          CAMPAIGNS,AdvertMssssssarketers,quality leads,20+ years of rich experience, best leads, 
-          high-quality data,metrics,analytics,Marketing,DEMAND GENERATION, Sales Development, 
-          Database Services, Digitaldeft Marketing ,Account Based Marketing, Content Marketing, 
-          Event Promotion ,Marketing Qualified Lead (MQL), Appointment Generation, BANT Lead,
-          Confirmed Call Back, Sales Qdualified Lead, Database Services, B2B List Building, Database Cleansing,
-          Install Database, Digital Marketing, Email Marketing, Market Research, SEO Services"
+          content="Employee Transportation, Corporate Shuttle, On-Demand Cabs, Safe Commutes, Corporate Mobility Solutions, Malhotracitytrans"
         />
       </Head>
       <div style={myFont.style}>
@@ -63,6 +61,7 @@ const Homepage = () => {
             <div className="header-layout-at-main-section">
               <div className="special-padding-nd-top-senkjc">
                 <h1
+                  data-aos="fade-up"
                   className="headr-for-webste-in-trensport-nalhotra"
                   style={myFont.style}
                 >
@@ -70,7 +69,7 @@ const Homepage = () => {
                   Our Priority
                 </h1>
                 <div className="flx-indc-aikjdna">
-                  <p className="para-cete-rherd-aloknowa">
+                  <p className="para-cete-rherd-aloknowa" data-aos="fade-up">
                     Imagine the ease of managing all your corporate commute
                     needs all through a single, user-friendly app. From daily
                     employee office commutes to effortless visitor access and a
@@ -81,12 +80,18 @@ const Homepage = () => {
                 </div>
                 <div className="flx-indc-aikjdna spamcieb-betwwedkj">
                   <Link href={"/contactus"}>
-                    <button className="button-for-cntct-us-sonf">
+                    <button
+                      className="button-for-cntct-us-sonf"
+                      data-aos="fade-up"
+                    >
                       Contact Us
                     </button>
                   </Link>
                   <Link href={"/aboutus"}>
-                    <button className="btn-frrr-knw-mre-at-sdjn">
+                    <button
+                      className="btn-frrr-knw-mre-at-sdjn"
+                      data-aos="fade-up"
+                    >
                       Know More
                     </button>
                   </Link>
@@ -99,11 +104,13 @@ const Homepage = () => {
           <div className="bur-colr-section-at-ssecound-sct  mrgin-tp-sjcnskc">
             <div className="displayflexat-ns " style={myFont.style}>
               <div className="header-layout-at-main-section ">
-                <p className="section-main-hdr-fr-wht-sec">
+                <p className="section-main-hdr-fr-wht-sec" data-aos="fade-up">
                   {" "}
                   Hello! Welcome to
                 </p>
-                <h1 className="hone-section-at-rodn-skk">MalhotraCityTrans</h1>
+                <h1 className="hone-section-at-rodn-skk" data-aos="fade-up">
+                  MalhotraCityTrans
+                </h1>
               </div>{" "}
             </div>
           </div>
@@ -111,7 +118,10 @@ const Homepage = () => {
             <div className="header-layout-at-main-section padding-ionlude-for-mobile-view-sds">
               <div className="flx-nin-two-compo-at-sbic">
                 <div className="widht-for-para-section-at-secound-sect">
-                  <p className="first-para-at-schl-sectio-sjkdjs">
+                  <p
+                    className="first-para-at-schl-sectio-sjkdjs"
+                    data-aos="fade-up"
+                  >
                     Welcome to Malhotracitytrans, your trusted partner in smart
                     corporate transportation solutions. We specialize in
                     providing seamless, safe, and efficient employee transport
@@ -139,30 +149,35 @@ const Homepage = () => {
                 </div>
                 <div className="third-left-top-minus-sect" style={myFont.style}>
                   <div className="back-rnd-white-at-left-section">
-                    <p className="fc-facts-for-ajdksn">Achievements So Far</p>
+                    <p className="fc-facts-for-ajdksn" data-aos="fade-up">
+                      Achievements So Far
+                    </p>
                     <div className="diply-cemntr-at-sction-for-whitelisb">
-                      <div className="color-line-at-center-of-left-section"></div>
+                      <div
+                        className="color-line-at-center-of-left-section"
+                        data-aos="fade-up"
+                      ></div>
                     </div>
-                    <div>
+                    <div data-aos="fade-up">
                       <p className="number-achienved-by-shools-sdjk">100%</p>
                       <p className="secound-line-of-sleft-sdide">Work Done!</p>
                       <p className="para-at-side-ltions"></p>
                     </div>
-                    <div>
+                    <div data-aos="fade-up">
                       <p className="number-achienved-by-shools-sdjk">100%</p>
                       <p className="secound-line-of-sleft-sdide">
                         Staff Guarantee
                       </p>
                       <p className="para-at-side-ltions"></p>
                     </div>
-                    <div>
+                    <div data-aos="fade-up">
                       <p className="number-achienved-by-shools-sdjk">100%</p>
                       <p className="secound-line-of-sleft-sdide">
                         Safety & Security
                       </p>
                       <p className="para-at-side-ltions"></p>
                     </div>
-                    <div>
+                    <div data-aos="fade-up">
                       <p className="number-achienved-by-shools-sdjk">145+</p>
                       <p className="secound-line-of-sleft-sdide">
                         Professional Team
@@ -177,7 +192,11 @@ const Homepage = () => {
         </div>
         <div className="displayflexat-ns back-wgite-firian">
           <div className="header-layout-at-main-section">
-            <div className="extra-tp-marg-insdj" style={myFont.style}>
+            <div
+              className="extra-tp-marg-insdj"
+              style={myFont.style}
+              data-aos="fade-up"
+            >
               <p className="third-para-header-at-ijnck" data-aos="fade-up">
                 Why Choose Malhotracitytrans?
               </p>
@@ -191,7 +210,10 @@ const Homepage = () => {
             <div className="efioefkls-esolk-dsk " style={myFont.style}>
               {" "}
               <div className="flx-section-wihtjd extra-tp-marg-insdj">
-                <div className="flx-with-img-and-hdr-and-para">
+                <div
+                  className="flx-with-img-and-hdr-and-para"
+                  data-aos="fade-up"
+                >
                   <div className="flx-fr-im-of-hwye-dis">
                     <div className="border-for-backgrnd-img-left">
                       <Image
@@ -211,7 +233,10 @@ const Homepage = () => {
                     </p>
                   </div>
                 </div>
-                <div className="flx-with-img-and-hdr-and-para">
+                <div
+                  className="flx-with-img-and-hdr-and-para"
+                  data-aos="fade-up"
+                >
                   <div className="flx-fr-im-of-hwye-dis">
                     <div className="border-for-backgrnd-img-left">
                       <Image
@@ -231,7 +256,10 @@ const Homepage = () => {
                     </p>
                   </div>
                 </div>
-                <div className="flx-with-img-and-hdr-and-para">
+                <div
+                  className="flx-with-img-and-hdr-and-para"
+                  data-aos="fade-up"
+                >
                   <div className="flx-fr-im-of-hwye-dis">
                     {" "}
                     <div className="border-for-backgrnd-img-left">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Footer } from "../Components/Footer/footer";
 import { Navbar } from "../Components/Navbar/navbar";
 import localFont from "next/font/local";
@@ -9,10 +9,31 @@ import Plane from "../../public/flight.png";
 import Event from "../../public/calendar.png";
 import Location from "../../public/location.png";
 import Image from "next/image";
-
+import Head from "next/head";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const services = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: "1000",
+    });
+  }, []);
+
   return (
     <>
+      <Head>
+        <title>
+          Our Services | Malhotracitytrans - Employee Transportation Solutions
+        </title>
+        <meta
+          name="description"
+          content="Explore our corporate transportation services including shuttle services, on-demand cabs, carpooling, real-time tracking, and custom travel solutions."
+        />
+        <meta
+          name="keywords"
+          content="Employee Shuttle Services, On-Demand Cabs, Corporate Carpooling, Real-Time Tracking, Custom Transportation Solutions, Malhotracitytrans"
+        />
+      </Head>
       <div>
         <Navbar />
       </div>
@@ -21,10 +42,17 @@ const services = () => {
         style={myFont.style}
       >
         <div className="main-section-for-bottom-tooasm">
-          <p className="testinmoai-sibcjse">Our Services</p>
-          <h3 className="secound-hdr-at-ieronlsdh">Our Key Services</h3>
+          <p className="testinmoai-sibcjse" data-aos="fade-up">
+            Our Services
+          </p>
+          <h3 className="secound-hdr-at-ieronlsdh" data-aos="fade-up">
+            Our Key Services
+          </h3>
           <div className="flx-in-fr-testimonial-parts-at-sectio">
-            <div className="container-at-testimon-white-badck">
+            <div
+              className="container-at-testimon-white-badck"
+              data-aos="fade-up"
+            >
               <div className="flxinfr-jhed-fjsfkad">
                 <Image
                   src={Car}
@@ -41,7 +69,10 @@ const services = () => {
                 always.
               </p>
             </div>
-            <div className="container-at-testimon-white-badck">
+            <div
+              className="container-at-testimon-white-badck"
+              data-aos="fade-up"
+            >
               <div className="flxinfr-jhed-fjsfkad">
                 <Image
                   src={Plane}
@@ -56,7 +87,10 @@ const services = () => {
               </p>
             </div>
           </div>
-          <div className="flx-in-fr-testimonial-parts-at-sectio">
+          <div
+            className="flx-in-fr-testimonial-parts-at-sectio"
+            data-aos="fade-up"
+          >
             <div className="container-at-testimon-white-badck">
               <div className="flxinfr-jhed-fjsfkad">
                 <Image

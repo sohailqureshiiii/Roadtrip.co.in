@@ -1239,6 +1239,9 @@ a {
   .back-rnd-white-at-left-section {
     border-radius: 0px;
   }
+  .layout-box-fr-logo-in-jdwla {
+    width: 80px;
+  }
 
   /* ---------  */
 
@@ -1281,6 +1284,7 @@ a {
   /* ------- Contact Form ----------  */
   .main-box-of-ctnct-info-inpts-and-cnt {
     display: block;
+    margin-top: 3.5em;
   }
   .first-bx-f-left-ctn-dhjd {
     width: 100%;
@@ -1296,6 +1300,7 @@ a {
   .left-text-content-at-cnt-bx {
     font-size: 45px;
     line-height: 54px;
+    color: #fff;
   }
   .right-bx-of-a-inouts-iand-sjm {
     padding: 0px;

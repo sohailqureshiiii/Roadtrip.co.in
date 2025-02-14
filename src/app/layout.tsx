@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Malhotracitytrans",
+  title: "Malhotracitytrans | Smart Employee Transportation Solutions",
   description:
-    "The search for quality leads is never-ending, but with the right solutions, your business can reach the pinnacle of success.",
+    "Malhotracitytrans offers reliable, safe, and efficient employee transportation solutions. Explore our tech-enabled corporate shuttle services and on-demand cabs.",
 };
 export default function RootLayout({
   children,
