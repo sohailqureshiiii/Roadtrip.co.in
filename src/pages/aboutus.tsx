@@ -48,7 +48,7 @@ const aboutus = () => {
         </div>
       </div>
       <div className="displayflexat-ns" style={myFont.style}>
-        <div className="header-layout-at-main-section">
+        <div className="header-layout-at-main-section padding-ionlude-for-mobile-view-sds">
           <div className="flx-nin-two-compo-at-sbic">
             <div className="widht-for-para-section-at-secound-sect">
               <p className="first-para-at-schl-sectio-sjkdjs">
@@ -127,9 +127,9 @@ const aboutus = () => {
       {/* ------------  */}
       <div className="vsion-and-aim-padding-top-extra">
         <div className="displayflexat-ns" style={myFont.style}>
-          <div className="header-layout-at-main-section">
+          <div className="header-layout-at-main-section nonpading-area-fr-skjds">
             <h4
-              className="section-header-at-about-page-view"
+              className="section-header-at-about-page-view "
               data-aos="fade-up"
             >
               OUR VISION AND MISSION{" "}

@@ -98,7 +98,7 @@ const Homepage = () => {
         <div>
           <div className="bur-colr-section-at-ssecound-sct  mrgin-tp-sjcnskc">
             <div className="displayflexat-ns " style={myFont.style}>
-              <div className="header-layout-at-main-section">
+              <div className="header-layout-at-main-section ">
                 <p className="section-main-hdr-fr-wht-sec">
                   {" "}
                   Hello! Welcome to
@@ -108,7 +108,7 @@ const Homepage = () => {
             </div>
           </div>
           <div className="displayflexat-ns" style={myFont.style}>
-            <div className="header-layout-at-main-section">
+            <div className="header-layout-at-main-section padding-ionlude-for-mobile-view-sds">
               <div className="flx-nin-two-compo-at-sbic">
                 <div className="widht-for-para-section-at-secound-sect">
                   <p className="first-para-at-schl-sectio-sjkdjs">
@@ -181,10 +181,10 @@ const Homepage = () => {
               <p className="third-para-header-at-ijnck" data-aos="fade-up">
                 Why Choose Malhotracitytrans?
               </p>
-              <h1 className="hone-large-title-fr-hdr-in-main-layout pad-left-for-hdr-in-mob only-center-this-dhr">
+              <h1 className="hone-large-title-fr-hdr-in-main-layout pad-left-for-hdr-in-mob only-center-this-dhr frgtfg-whjdjwe-sfnjk">
                 Safe, Reliable, and Efficient
               </h1>
-              <h1 className="hone-large-title-fr-hdr-in-main-layout pad-left-for-hdr-in-mob only-center-this-dhr">
+              <h1 className="hone-large-title-fr-hdr-in-main-layout pad-left-for-hdr-in-mob only-center-this-dhr frgtfg-whjdjwe-sfnjk">
                 Transportation Solutions
               </h1>
             </div>

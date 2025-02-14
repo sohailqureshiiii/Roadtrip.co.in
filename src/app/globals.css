@@ -526,6 +526,7 @@ a {
 .padding-toop-for-footer {
   margin-top: 14em;
 }
+
 .header-layout-at-main-section {
   padding-top: 30px;
   width: 80em;
@@ -1005,6 +1006,9 @@ a {
   .btn-at-homepage-navbar-jsd {
     display: none;
   }
+  .text span {
+    font-size: 24px;
+  }
   .header-at-drp-dwn-at-navbar {
     font-size: 18px;
     padding-bottom: 20px;
@@ -1048,19 +1052,20 @@ a {
   .third-para-header-at-ijnck {
     font-size: 16px;
     padding-top: 0em;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
+    line-height: 28px;
   }
   .only-center-this-dhr {
     text-align: center;
   }
   .hone-large-title-fr-hdr-in-main-layout {
-    letter-spacing: -3px;
-    font-size: 50px;
+    letter-spacing: -2px;
+    font-size: 39px;
     text-align: left;
     line-height: 58px;
   }
   .white-box-with-background-on-footer-left {
-    padding: 40px 40px 40px 25px;
+    padding: 20px;
   }
   .pad-left-for-hdr-in-mob {
     padding: 0px 15px;
@@ -1081,11 +1086,26 @@ a {
     justify-content: center;
     margin-bottom: 1em;
   }
+  .nonpading-area-fr-skjds {
+    padding: 10px 15px 0;
+  }
   .para-at-three-section-of-why-choose-us {
     line-height: 26px;
     font-size: 14px;
     padding-top: 5px;
     padding-bottom: 2em;
+  }
+  .header-at-footer-for-company-logo {
+    font-size: 28px;
+  }
+  .secound-para-header-at-footer-line {
+    padding-bottom: 0px;
+    font-size: 22px;
+    margin-top: 10px;
+    color: #3d3d3dd1;
+  }
+  .folow-us-header-at-footer-in-botttom {
+    font-size: 28px;
   }
   .flx-xards-with-rspo-hoer-effects-festures {
     display: block;
@@ -1143,6 +1163,13 @@ a {
     font-weight: 500;
     text-align: center;
   }
+  .section-header-at-about-page-view {
+    font-size: 21px;
+  }
+  .extra-border-with {
+    width: 245px;
+  }
+
   .flex-div-contain-buy-now-and-learn-more-link-for-the-component {
     text-align: center;
   }
@@ -1153,10 +1180,14 @@ a {
   }
 
   .manana-logo-of-navbar-sejba {
-    width: 100%;
-    height: 60px;
+    width: 85;
+    height: 85px;
   }
 
+  .frgtfg-whjdjwe-sfnjk {
+    font-size: 42px;
+    text-align: center;
+  }
   /* ------ Footer -----  */
   .displayflexat-ns {
     display: block;
@@ -1176,6 +1207,9 @@ a {
   }
   .flx-in-use-full-loink-and-servoces {
     display: block;
+  }
+  .links-name-at-footer-secctions-djs {
+    font-size: 16px;
   }
   .wid-sjdkf-wfw-wjepfw-rwsd {
     width: 100%;
@@ -1209,12 +1243,14 @@ a {
   /* ---------  */
 
   .bur-colr-section-at-ssecound-sct {
-    /* background: #088ac9; */
-    padding: 5em 0em 3em 0em;
+    padding: 0em 0 1em;
     margin-top: 3em;
   }
   .displayflexat-ns {
     display: block;
+  }
+  .padding-ionlude-for-mobile-view-sds {
+    padding: 1px 15px 0px 0px;
   }
   .header-layout-at-main-section {
     width: 100%;
@@ -1285,33 +1321,16 @@ a {
 
   /* ---------- About Us ----------  */
 
-  .hone-large-title-fr-hdr-in-main-layout {
-    letter-spacing: -3px;
-    font-size: 50px;
-    text-align: center;
-    line-height: 58px;
-  }
   .para-at-main-layout-atnew-sec {
     padding: 0px;
     text-align: left;
     font-size: 20px;
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: 10px;
   }
   .button-fr-srvices-pagr-athds-jhdsn {
-    margin-top: 35px;
-    font-weight: 500;
-    border-radius: 5px;
-    border: 1px solid #000;
-    font-size: 16px;
-    display: block;
-    cursor: pointer;
-    padding: 15px 80px;
-    font-size: 22px;
-    background: #000;
-    color: #fff;
-    border-radius: 0;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
+    display: none;
   }
   .flx-for-img-and-office-country {
     display: flex;
