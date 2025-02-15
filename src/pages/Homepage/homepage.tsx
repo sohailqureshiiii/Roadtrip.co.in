@@ -70,12 +70,12 @@ const Homepage = () => {
                 </h1>
                 <div className="flx-indc-aikjdna">
                   <p className="para-cete-rherd-aloknowa" data-aos="fade-up">
-                    Imagine the ease of managing all your corporate commute
-                    needs all through a single, user-friendly app. From daily
-                    employee office commutes to effortless visitor access and a
-                    seamless parking solution – Routematic streamlines your
-                    operations and empowers a happier, more productive
-                    workforce.
+                    At Malhotracitytrans, we specialize in providing safe,
+                    reliable, and efficient transportation solutions for
+                    corporate employees. Our advanced Employee Transportation
+                    Management system ensures seamless travel experiences,
+                    enhancing productivity while prioritizing employee safety
+                    and convenience.
                   </p>
                 </div>
                 <div className="flx-indc-aikjdna spamcieb-betwwedkj">
