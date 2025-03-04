@@ -80,16 +80,16 @@ export const Footer = () => {
                   <div className="botom-line-of-luse-fil-links-snidr"></div>
                   <div>
                     <div className="links-name-at-footer-secctions-djs">
-                      <li>+91 1234 56 7899</li>
+                      <li>+91 98226 95309</li>
                     </div>
                     <div className="links-name-at-footer-secctions-djs">
-                      <li>+91 1234 56 7899</li>
+                      <li>+91 92847 90752</li>
                     </div>
                     <div className="links-name-at-footer-secctions-djs">
-                      <li>sales@malhotracitytrans.com </li>
+                      <li>+91 94033 97445</li>
                     </div>
                     <div className="links-name-at-footer-secctions-djs">
-                      <li>contactus@malhotracitytrans.com</li>
+                      <li>support@malhotracitytrans.com</li>
                     </div>
                   </div>
                 </div>
@@ -111,8 +111,8 @@ export const Footer = () => {
                     </div>
                     <div>
                       <p className="adress-para-at-footer-sd">
-                        1267 Willis St., STE 200, Redding, California 96001
-                        United States
+                        Plot No. 75, Sarthank Green Society, Gat No. 1487 Diamod
+                        Water Park Road, Wagholi, Pune - 412207
                       </p>
                     </div>
                   </div>

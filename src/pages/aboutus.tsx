@@ -151,16 +151,22 @@ const aboutus = () => {
       {/* ---------------- */}
       <div className="scrolling_text" style={myFont.style} data-aos="fade-up">
         <div className="text">
-          <span>Working Hours : 07:00am to 05:30pm</span>
-          <span> Phone : +91 98928 14653</span>
-          <span> Email : Rfces.manage@gmail.com</span>
-          <span> Address : Rehmat Ali Road, 1st Rabodi ,Thane(W)</span>
+          <span> Phone : +91 98226 95309</span>
+          <span> Email : support@malhotracitytrans.com</span>
+          <span>
+            {" "}
+            Address : Plot No. 75, Sarthank Green Society, Gat No. 1487 Diamod
+            Water Park Road, Wagholi, Pune - 412207
+          </span>
         </div>
         <div className="text">
-          <span>Working Hours : 07:00am to 05:30pm</span>
-          <span> Phone : +91 98928 14653</span>
-          <span> Email : Rfces.manage@gmail.com</span>
-          <span> Address : REHMAT ALI ROAD, 1st Rabodi ,THANE(W)</span>
+          <span> Phone : +91 92847 90752</span>
+          <span> Email : support@malhotracitytrans.com</span>
+          <span>
+            {" "}
+            Address : Plot No. 75, Sarthank Green Society, Gat No. 1487 Diamod
+            Water Park Road, Wagholi, Pune - 412207
+          </span>
         </div>
       </div>
       {/* ------------  */}
