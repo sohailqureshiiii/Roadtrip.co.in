@@ -81,6 +81,7 @@ const Homepage = () => {
                 <div className="flx-indc-aikjdna spamcieb-betwwedkj">
                   <Link href={"/contactus"}>
                     <button
+                      style={myFont.style}
                       className="button-for-cntct-us-sonf"
                       data-aos="fade-up"
                     >
@@ -91,6 +92,7 @@ const Homepage = () => {
                     <button
                       className="btn-frrr-knw-mre-at-sdjn"
                       data-aos="fade-up"
+                      style={myFont.style}
                     >
                       Know More
                     </button>
@@ -123,25 +125,25 @@ const Homepage = () => {
                     data-aos="fade-up"
                   >
                     Welcome to Malhotracitytrans, your trusted partner in smart
-                    corporate transportation solutions. We specialize in
-                    providing seamless, safe, and efficient employee transport
-                    services tailored to meet the needs of businesses of all
-                    sizes. Our technology-driven approach ensures that corporate
-                    employees experience hassle-free, on-time, and secure
-                    commutes every day.
-                    <br />
+                    corporate transportation solutions since 2007. Previously
+                    known as Malhotra Tours and Travels, we have grown into a
+                    leading provider of seamless, safe, and efficient employee
+                    transport services, tailored to businesses of all sizes. Our
+                    fleet includes all types of vehicles, from BMWs and Mercedes
+                    to deluxe and outstation travel options, ensuring comfort
+                    and reliability. We proudly serve clients like Digicoption
+                    India Pvt Ltd, Jabil India Ltd, and Carraro India Ltd,
+                    providing nationwide corporate transport solutions,
+                    including Mathaly packages and all-India travel services.
                     With a strong commitment to reliability and innovation, we
-                    aim to transform the way companies manage employee
-                    transportation, offering advanced fleet solutions that
-                    maximize efficiency, reduce costs, and enhance overall
-                    workforce productivity.
-                    <br /> At Malhotracitytrans, we believe that transportation
-                    should never be a challenge for businesses or employees. Our
-                    goal is to make corporate commuting effortless, allowing
-                    employees to focus on their work while we take care of their
-                    travel needs.
-                    <br />
-                    Through continuous innovation, advanced technology, and an
+                    aim to transform corporate transportation, offering advanced
+                    fleet solutions that maximize efficiency, reduce costs, and
+                    enhance workforce productivity. At Malhotracitytrans, we
+                    believe transportation should never be a challenge for
+                    businesses or employees. Our goal is to make corporate
+                    commuting effortless, allowing employees to focus on their
+                    work while we take care of their travel needs. Through
+                    continuous innovation, advanced technology, and an
                     unwavering commitment to excellence, we are shaping the
                     future of employee transportation—one safe and reliable ride
                     at a time.

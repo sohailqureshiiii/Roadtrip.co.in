@@ -2,7 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import MainLogo from "../../../public/M-removebg-preview.png";
-
+import localFont from "next/font/local";
+const myFont = localFont({ src: "../../../Fonts/Montserrat-Medium.ttf" });
 const NavModal = (props) => {
   if (!props.visible) {
     return null;
@@ -12,10 +13,19 @@ const NavModal = (props) => {
     <>
       <div className="modalFixedBg">
         <div style={{ position: "relative" }}>
-          <div className="Container-of-mobile-navigationbar">
+          <div
+            className="Container-of-mobile-navigationbar"
+            style={myFont.style}
+          >
             <div className="flx-in-logo-and-links-of-pages">
               <div>
-                <Image src={MainLogo} width={"100%"} height={65} alt="" />
+                <Image
+                  src={MainLogo}
+                  width={"100%"}
+                  height={65}
+                  alt=""
+                  style={{ marginLeft: "15px", marginTop: "5px" }}
+                />
               </div>
               <div style={{ padding: "15px" }}>
                 <svg
@@ -49,9 +59,7 @@ const NavModal = (props) => {
             </div>
             <div className="pad-at-navigatoio-bxds">
               <Link href="/">
-                <p className="links-for-mobile-view-innavbar-modla brdr-tp-adk">
-                  Home
-                </p>
+                <p className="links-for-mobile-view-innavbar-modla ">Home</p>
               </Link>
               <Link href="/aboutus">
                 <p className="links-for-mobile-view-innavbar-modla">About Us</p>

@@ -52,7 +52,7 @@ a {
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #666;
+  color: #e0bd5f;
   padding-top: 3em;
   padding-bottom: 2em;
   text-align: center;
@@ -87,7 +87,7 @@ a {
   border-radius: 10px;
   height: 4.5em;
   margin-bottom: 1em;
-  background: #0c0a00;
+  background: #356ba4;
   padding: 10px;
 }
 .hdr-at-three-section-of-why {
@@ -162,23 +162,25 @@ a {
 .button-for-cntct-us-sonf {
   font-weight: 500;
   border-radius: 5px;
-  border: 1px solid #000;
+  border: 1px solid #e0bd5f;
   font-size: 16px;
   display: block;
   cursor: pointer;
   padding: 15px 45px;
   font-size: 20px;
-  background: #000;
-  color: #fff;
+  background: #e0bd5f;
+  color: #000;
+  font-weight: 600;
 }
 .btn-frrr-knw-mre-at-sdjn {
   font-weight: 500;
   border-radius: 5px;
-  border: 1px solid #000;
+  border: 1px solid #805d00;
   font-size: 16px;
   display: block;
   cursor: pointer;
   padding: 15px 45px;
+  color: #805d00;
   font-size: 20px;
   box-shadow: 0 0 25px #e0c5b28c;
 }
@@ -186,7 +188,7 @@ a {
 
 .manana-logo-of-navbar-sejba {
   width: 100%;
-  height: 120px;
+  height: 95px;
 }
 
 .background-for-home-navigationbar {
@@ -262,14 +264,14 @@ a {
   font-weight: 600;
   padding: 10px 30px;
   border-radius: 5px;
-  border: 1px solid #000;
+  border: 1px solid #e0bd5f;
   font-size: 16px;
   background: none;
-  color: #fff;
+  color: #000;
   box-shadow: 0 0 0 #fec1958c;
   display: block;
   cursor: pointer;
-  background: #000;
+  background: #e0bd5f;
   letter-spacing: 1px;
 }
 .display-none-at-hamburger-iohs {
@@ -387,9 +389,9 @@ a {
 }
 .links-for-mobile-view-innavbar-modla {
   padding: 15px 0px;
-  border-bottom: 1px solid #000;
+  text-align: center;
+  font-size: 24px;
   color: #000;
-  font-size: 18px;
 }
 .brdr-tp-adk {
   border-top: 1px solid #000;
@@ -428,7 +430,7 @@ a {
 
 /* -------  */
 .bur-colr-section-at-ssecound-sct {
-  background: #151414;
+  background: #356ba4;
   padding: 5em 0em 3em 0em;
   margin-top: 11em;
 }
@@ -515,7 +517,7 @@ a {
 /* ------------ Footer Css starts -------------- */
 
 .back-grond-for-footer-at-bottom-end {
-  background: #000;
+  background: #133a63;
 }
 
 .displayflexat-ns {
@@ -701,14 +703,15 @@ a {
 /* ------- Contact Form ----------  */
 
 .first-bx-f-left-ctn-dhjd {
-  background: #6d7bdf;
+  background: #fff;
   width: 41em;
   padding: 30px;
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
+  border: 1px solid #000;
 }
 .esr-white-line-in-side-ak {
-  border-left: 5px solid #fff;
+  border-left: 5px solid #e0bd5f;
   padding: 0px 0px 0px 30px;
   margin-top: 150px;
 }
@@ -717,7 +720,7 @@ a {
   font-size: 52px;
   line-height: 55px;
   margin-bottom: 0.6em;
-  color: #000;
+  color: #e0bd5f;
   padding-top: 30px;
 }
 .right-bx-of-a-inouts-iand-sjm {
@@ -783,14 +786,15 @@ a {
 .send-msg-btn-st-ancjs-bcks {
   padding: 20px 50px;
   border-radius: 5px;
-  border: 1px solid #000;
+  border: 1px solid #e0bd5f;
   font-size: 18px;
-  color: #fff;
+  color: #000;
   box-shadow: 0 0 0 #fec1958c;
   display: block;
   cursor: pointer;
-  background: #000;
+  background: #e0bd5f;
   margin-top: 1em;
+  font-weight: 600;
 }
 
 /* ------- About us page ------  */
@@ -808,14 +812,13 @@ a {
   margin-top: 35px;
   font-weight: 500;
   border-radius: 5px;
-  border: 1px solid #000;
-  font-size: 16px;
+  border: 1px solid #e0bd5f;
   display: block;
   cursor: pointer;
   padding: 15px 80px;
   font-size: 22px;
-  background: #000;
-  color: #fff;
+  background: #e0bd5f;
+  color: #000;
 }
 
 .scrolling_text {
@@ -878,7 +881,7 @@ a {
   margin-top: 5px;
 }
 .backgroud-orange-at-fourth-section-in-os {
-  background: #000;
+  background: #356ba4;
   margin-top: 45px;
 }
 .padding-bottom-at-orangesec {
@@ -918,7 +921,7 @@ a {
 
 /* -------------- Service page css starts -------------- */
 .section-fourth-backgrnd-blckush-tyoe-sjnd {
-  background: #2e2b2b;
+  background: #133a63;
   margin: 0em 0em;
   padding: 5em 0em 3em 0em;
   height: 64em;
@@ -1180,8 +1183,9 @@ a {
   }
 
   .manana-logo-of-navbar-sejba {
-    width: 85;
-    height: 85px;
+    margin-top: 5px;
+    width: 110px;
+    height: 65px;
   }
 
   .frgtfg-whjdjwe-sfnjk {
@@ -1300,7 +1304,6 @@ a {
   .left-text-content-at-cnt-bx {
     font-size: 45px;
     line-height: 54px;
-    color: #fff;
   }
   .right-bx-of-a-inouts-iand-sjm {
     padding: 0px;

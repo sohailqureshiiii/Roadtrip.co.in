@@ -15,7 +15,7 @@ const NewContactForm = () => {
         <div style={myFont.style} className="first-bx-f-left-ctn-dhjd">
           <div className="esr-white-line-in-side-ak">
             {" "}
-            <Image src={MainLogo} height={80} width={80} />
+            <Image src={MainLogo} height={120} width={180} />
             <p className="left-text-content-at-cnt-bx">
               Talk to our
               <br />
