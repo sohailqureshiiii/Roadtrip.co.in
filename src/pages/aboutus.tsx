@@ -20,15 +20,15 @@ const aboutus = () => {
     <>
       <Head>
         <title>
-          About Us | Malhotracitytrans - Corporate Transportation Experts
+          About Us | Malhotra CityTrans - Corporate Transportation Experts
         </title>
         <meta
           name="description"
-          content="Learn about Malhotracitytrans, a leader in employee transportation management. Discover our mission, vision, and commitment to safe and efficient corporate travel."
+          content="Learn about Malhotra CityTrans, a leader in employee transportation management. Discover our mission, vision, and commitment to safe and efficient corporate travel."
         />
         <meta
           name="keywords"
-          content="About Malhotracitytrans, Employee Transport Solutions, Corporate Travel Management, Safe Employee Commutes, Corporate Mobility"
+          content="About Malhotra CityTrans Pvt Ltd, Employee Transport Solutions, Corporate Travel Management, Safe Employee Commutes, Corporate Mobility"
         />
       </Head>
       <Navbar />
@@ -42,7 +42,7 @@ const aboutus = () => {
             className="hone-large-title-fr-hdr-in-main-layout"
             data-aos="fade-up"
           >
-            Welcome to Malhotracitytrans
+            Welcome to Malhotra CityTrans Pvt Ltd
           </h1>
           <h1
             className="hone-large-title-fr-hdr-in-main-layout"
@@ -51,11 +51,11 @@ const aboutus = () => {
             Smart Employee Transportation Solutions
           </h1>
           <p className="para-at-main-layout-atnew-sec" data-aos="fade-up">
-            At Malhotracitytrans, we specialize in providing safe, reliable, and
-            efficient transportation solutions for corporate employees. Our
-            advanced Employee Transportation Management system ensures seamless
-            travel experiences, enhancing productivity while prioritizing
-            employee safety and convenience.
+            At Malhotra CityTrans Pvt Ltd, we specialize in providing safe,
+            reliable, and efficient transportation solutions for corporate
+            employees. Our advanced Employee Transportation Management system
+            ensures seamless travel experiences, enhancing productivity while
+            prioritizing employee safety and convenience.
           </p>
           <div className="displayflexat-ns">
             <Link href={"/services"}>
@@ -75,7 +75,7 @@ const aboutus = () => {
         <div className="displayflexat-ns " style={myFont.style}>
           <div className="header-layout-at-main-section">
             <p className="section-main-hdr-fr-wht-sec"> Hello! Welcome to</p>
-            <h1 className="hone-section-at-rodn-skk">MalhotraCityTrans</h1>
+            <h1 className="hone-section-at-rodn-skk">Malhotra CityTrans</h1>
           </div>{" "}
         </div>
       </div>
@@ -87,20 +87,20 @@ const aboutus = () => {
                 className="first-para-at-schl-sectio-sjkdjs"
                 data-aos="fade-up"
               >
-                Welcome to Malhotracitytrans, your trusted partner in smart
-                corporate transportation solutions since 2007. Previously known
-                as Malhotra Tours and Travels, we have grown into a leading
-                provider of seamless, safe, and efficient employee transport
-                services, tailored to businesses of all sizes. Our fleet
-                includes all types of vehicles, from BMWs and Mercedes to deluxe
-                and outstation travel options, ensuring comfort and reliability.
-                We proudly serve clients like Digicoption India Pvt Ltd, Jabil
-                India Ltd, and Carraro India Ltd, providing nationwide corporate
-                transport solutions, including Mathaly packages and all-India
-                travel services. With a strong commitment to reliability and
-                innovation, we aim to transform corporate transportation,
-                offering advanced fleet solutions that maximize efficiency,
-                reduce costs, and enhance workforce productivity. At
+                Welcome to Malhotra CityTrans Pvt Ltd, your trusted partner in
+                smart corporate transportation solutions since 2007. Previously
+                known as Malhotra Tours and Travels, we have grown into a
+                leading provider of seamless, safe, and efficient employee
+                transport services, tailored to businesses of all sizes. Our
+                fleet includes all types of vehicles, from BMWs and Mercedes to
+                deluxe and outstation travel options, ensuring comfort and
+                reliability. We proudly serve clients like Digicoption India Pvt
+                Ltd, Jabil India Ltd, and Carraro India Ltd, providing
+                nationwide corporate transport solutions, including Mathaly
+                packages and all-India travel services. With a strong commitment
+                to reliability and innovation, we aim to transform corporate
+                transportation, offering advanced fleet solutions that maximize
+                efficiency, reduce costs, and enhance workforce productivity. At
                 Malhotracitytrans, we believe transportation should never be a
                 challenge for businesses or employees. Our goal is to make
                 corporate commuting effortless, allowing employees to focus on

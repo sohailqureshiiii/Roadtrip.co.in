@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Malhotracitytrans | Smart Employee Transportation Solutions",
+  title: "Malhotra CityTrans | Smart Employee Transportation Solutions",
   description:
-    "Malhotracitytrans offers reliable, safe, and efficient employee transportation solutions. Explore our tech-enabled corporate shuttle services and on-demand cabs.",
+    "Malhotra CityTrans offers reliable, safe, and efficient employee transportation solutions. Explore our tech-enabled corporate shuttle services and on-demand cabs.",
 };
 export default function RootLayout({
   children,

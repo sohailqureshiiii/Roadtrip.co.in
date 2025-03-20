@@ -70,12 +70,12 @@ const Homepage = () => {
                 </h1>
                 <div className="flx-indc-aikjdna">
                   <p className="para-cete-rherd-aloknowa" data-aos="fade-up">
-                    At Malhotracitytrans, we specialize in providing safe,
-                    reliable, and efficient transportation solutions for
-                    corporate employees. Our advanced Employee Transportation
-                    Management system ensures seamless travel experiences,
-                    enhancing productivity while prioritizing employee safety
-                    and convenience.
+                    Welcome to Malhotra CityTrans Pvt Ltd, we specialize in
+                    providing safe, reliable, and efficient transportation
+                    solutions for corporate employees. Our advanced Employee
+                    Transportation Management system ensures seamless travel
+                    experiences, enhancing productivity while prioritizing
+                    employee safety and convenience.
                   </p>
                 </div>
                 <div className="flx-indc-aikjdna spamcieb-betwwedkj">
@@ -111,7 +111,7 @@ const Homepage = () => {
                   Hello! Welcome to
                 </p>
                 <h1 className="hone-section-at-rodn-skk" data-aos="fade-up">
-                  MalhotraCityTrans
+                  Malhotra CityTrans
                 </h1>
               </div>{" "}
             </div>

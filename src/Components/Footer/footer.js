@@ -21,7 +21,7 @@ export const Footer = () => {
               <div>
                 <Image src={MainLogo} width={150} alt="" />
                 <h2 className="header-at-footer-for-company-logo">
-                  MalhotraCityTrans
+                  Malhotra CityTrans Pvt Ltd
                 </h2>
                 <div>
                   <p className="secound-para-header-at-footer-line">
