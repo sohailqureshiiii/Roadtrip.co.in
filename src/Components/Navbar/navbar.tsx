@@ -36,7 +36,7 @@ export const Navbar = () => {
               />{" "}
               0401-256-963
             </button>
-            <Link href="/contactus">
+            <Link href="/Services">
               <button
                 style={myFont.style}
                 className="btn-at-homepage-navbar-jsd"

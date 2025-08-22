@@ -1216,21 +1216,32 @@ a {
 /* ------------ Navbar Responsive ---------  */
 
 @media (min-width: 320px) and (max-width: 452px) {
+  .background-for-home-navigationbar {
+    position: fixed;
+  }
   .layout-box-fr-navigation-sub-bx {
     width: 100%;
     padding: 0px 15px;
     background: #fff;
   }
+  .tp-jkdwa-dlanwl {
+    margin-top: 1em;
+    gap: 2em;
+  }
+  .iadakdl-aodnlad-kajd {
+    font-size: 14px;
+  }
   .layout-box-fr-logo-in-jdwla {
-    width: 80px;
+    width: 100%;
+    padding-top: 0px;
   }
   .manana-logo-of-navbar-sejba {
-    margin-top: 5px;
-    width: 140px;
-    height: 90px;
+    width: 90px;
+    height: 83px;
+    margin-top: 0px;
   }
   .lx-in-ul-plus-list {
-    display: flex;
+    display: none;
     gap: 1em;
     align-items: center;
   }
@@ -1247,6 +1258,15 @@ a {
   /* ------------ Navbar Css Ends Here -------------  */
 
   /* ------ Home Page Section ----------- */
+
+  .aidhk-width-awdjkad-adwjkam {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .fxlxj-fr-ajf-ahwukda {
+    display: block;
+  }
 
   .Backround-image-for-home-aifdsj {
     width: 100%;
@@ -1288,8 +1308,112 @@ a {
     margin-top: 1em;
   }
   .flx-of-two-coloms-in-mainsection {
-    display: flex;
     flex-direction: column-reverse;
+    display: flex;
+  }
+  .back-whte-ate-left-sebtocs-kjadm {
+    border-radius: 15px;
+    width: 100%;
+    padding: 20px;
+  }
+  .fr-hedr-first-page-to-padln {
+    font-size: 26px;
+  }
+  .clasdaik-white-heiskd {
+    width: 100%;
+    height: 62em;
+  }
+  .frdst-shedr-at-s-lestft-side {
+    font-size: 26px;
+  }
+  .flx-hdr-in-styla-dad {
+    gap: 10px;
+  }
+  .para-at-lefr-t-sde-djkadn {
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .bx-xntnt-at-kajknad {
+    font-size: 14px;
+  }
+  .with-fr-cntct-form-ajd {
+    width: 100%;
+  }
+  .fr-inpit-acjkasn-box-ssan {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .only-r-pding-area-cks {
+    padding: 0px 15px 15px 15px;
+  }
+  .flx-insk-dak-alkncak-ckam {
+    display: block;
+  }
+  .texta-afhbaew-mkamndla {
+    border-radius: 5px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    padding: 15px;
+    font-size: 16px;
+  }
+  .para-at-lefr-t-sde-djkadn {
+    width: 100%;
+  }
+  .clr-fll-tcxt-hdr-at-asdn {
+    font-size: 26px;
+  }
+  .flx-send-anldasfs {
+    width: 100%;
+    margin-top: 1em;
+    padding: 0px 0;
+  }
+  .hdr-fr-cntc-frm-ascnla {
+    font-size: 21px;
+  }
+  .flx-insk-dak-alkncak-ckam {
+    padding-top: 0em;
+  }
+  .adfsgrsews {
+    margin-top: 0em;
+    gap: 2em;
+  }
+  .fixed-image-ataghdjhkwaj {
+    width: 100%;
+    height: 62em;
+    position: absolute;
+  }
+  .hdr-sned-jnad-backald {
+    font-size: 26px;
+    padding: 5px;
+    width: 7em;
+    margin: 7px 0px;
+  }
+  .iadwjk-ajeldnfa-wdkqdjn {
+    font-size: 14px;
+  }
+  .pajd-aukfjs-awdfnala-wdawodl-faoi {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.83);
+    padding-top: 15px;
+    line-height: 22px;
+  }
+  .akdj-oadn-ajwkdanja {
+    width: 35em;
+    margin-top: 8px;
+    padding: 5px 0;
+  }
+  .btn-at-alkda-knmr-as {
+    width: 100%;
+    margin-top: 1em;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 3px solid #449aff;
   }
   .contact-us-btn-at-buttons-sections {
     width: 100%;
@@ -1307,7 +1431,23 @@ a {
     height: 50%;
     margin-bottom: 1em;
   }
-
+  .fxlxj-fr-ajf-ahwukda {
+    display: block;
+  }
+  .flx-aidkjn-awiledjkfds {
+    display: block;
+  }
+  .hdr-at-i-left-sred-section-ska {
+    padding: 5px;
+    font-size: 17px;
+    margin-top: 5px;
+  }
+  .duhwad-akwj-input-at-akjawd {
+    font-size: 14px;
+  }
+  .book-now-btn-at-left-sectiona-wdjka {
+    font-size: 14px;
+  }
   /* ---------- Footer -------------  */
 
   .displayflexat-ns {
