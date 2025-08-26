@@ -2,11 +2,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import MainLogo from "../../..//public/M-removebg-preview.png";
+import MainLogo from "../../../public/M-removebg-preview.jpeg";
 import Hamburger from "../../..//public/menu.png";
 import NavModal from "../../Components/NavBarModal/NavBarModal";
 import React, { useState } from "react";
-import DropdownMenu from "../DropdownService/dropdownservice";
+import Call from "../../../public/call.png";
 import localFont from "next/font/local";
 const myFont = localFont({ src: "../../../Fonts/Montserrat-Medium.ttf" });
 
@@ -27,20 +27,16 @@ export const Navbar = () => {
             </div>{" "}
           </Link>
           <div className="lx-in-ul-plus-list">
-            <ul className="ul-list-for-navtion-at-home-screen-ajk">
-              <li className="Inactive-nav-tabs-links-at-Homescreen">
-                <Link href="/"> Home</Link>
-              </li>
-              <li className="Inactive-nav-tabs-links-at-Homescreen">
-                <Link href="/aboutus"> About Us</Link>
-              </li>
-              <li className="Inactive-nav-tabs-links-at-Homescreen">
-                <DropdownMenu
-                  menu={<Link href="/services">Services</Link>}
-                ></DropdownMenu>
-              </li>
-            </ul>
-            <Link href="/contactus">
+            <button className="btn-at-btm-aoda-ndajm" style={myFont.style}>
+              {" "}
+              <Image
+                src={Call}
+                alt=""
+                className="acla-scg-adnljda-adwlwkm"
+              />{" "}
+              0401-256-963
+            </button>
+            <Link href="/Services">
               <button
                 style={myFont.style}
                 className="btn-at-homepage-navbar-jsd"

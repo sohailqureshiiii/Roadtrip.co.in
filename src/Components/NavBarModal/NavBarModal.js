@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import MainLogo from "../../../public/M-removebg-preview.png";
+import MainLogo from "../../../public/M-removebg-preview.jpeg";
 import localFont from "next/font/local";
 const myFont = localFont({ src: "../../../Fonts/Montserrat-Medium.ttf" });
 const NavModal = (props) => {
