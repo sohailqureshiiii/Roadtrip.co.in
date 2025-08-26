@@ -21,7 +21,7 @@ const service = () => {
             <div className="flx-of-two-coloms-in-mainsection">
               {" "}
               <div className="flx-of-two-coloms-in-mainsection adfsgrsews jus-cnakjnk">
-                <Contactform />
+                {/* <Contactform /> */}
                 <div>
                   <div className="flx-hdr-in-styla-dad">
                     <h1 className="frdst-shedr-at-s-lestft-side">WE PROVIDE</h1>
