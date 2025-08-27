@@ -28,6 +28,7 @@ import localFont from "next/font/local";
 import { Navbar } from "../Components/Navbar/navbar";
 import { Contactform } from "../Components/ContactForm/contactform";
 import { Footer } from "../Components/Footer/footer";
+import Link from "../../node_modules/next/link";
 
 const myFont = localFont({ src: "../../Fonts/Montserrat-Medium.ttf" });
 const Homepage = () => {
@@ -135,12 +136,14 @@ const Homepage = () => {
                         />
                       </div>
                     </div>
-                    <button
-                      className="book-now-btn-at-left-sectiona-wdjka"
-                      style={myFont.style}
-                    >
-                      Check Availability
-                    </button>
+                    <Link href={"/service"}>
+                      <button
+                        className="book-now-btn-at-left-sectiona-wdjka"
+                        style={myFont.style}
+                      >
+                        Check Availability
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -195,9 +198,11 @@ const Homepage = () => {
                   </div>
                 </div>
                 <div>
-                  <button className="btn-at-alkda-knmr-as">
-                    Book Your Cab Now
-                  </button>
+                  <Link href={"/service"}>
+                    <button className="btn-at-alkda-knmr-as">
+                      Book Your Cab Now
+                    </button>
+                  </Link>
                 </div>
                 <div>{/* <Image src={Swift} alt="" /> */}</div>
               </div>
@@ -286,11 +291,6 @@ const Homepage = () => {
                       </h2>
                     </div>
                   </div>
-                  {/* <div>
-                    <button className="btn-at-alkda-knmr-as">
-                      Book Your Ride Today
-                    </button>
-                  </div> */}
                 </div>
               </div>{" "}
             </div>
@@ -344,12 +344,14 @@ const Homepage = () => {
                     Enjoy timely, hassle-free airport pick-up and drop services
                     with comfort and safety guaranteed.
                   </p>
-                  <button
-                    className="dwadad-daldnkav-apdnadml-sv"
-                    style={myFont.style}
-                  >
-                    Book Now
-                  </button>
+                  <Link href={"/service"}>
+                    <button
+                      className="dwadad-daldnkav-apdnadml-sv"
+                      style={myFont.style}
+                    >
+                      Book Now
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div className="pad-ac-aidjn-awnd-ka-cadd" style={myFont.style}>
@@ -364,9 +366,11 @@ const Homepage = () => {
                     Professional and reliable rides tailored for meetings,
                     office commutes, and business travel.
                   </p>
-                  <button className="ad-jad-awdl-wdk" style={myFont.style}>
-                    Book Now
-                  </button>
+                  <Link href={"/service"}>
+                    <button className="ad-jad-awdl-wdk" style={myFont.style}>
+                      Book Now
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div className="pad-ac-aidjn-awnd-ka-cadd" style={myFont.style}>
@@ -381,9 +385,11 @@ const Homepage = () => {
                     Convenient transport for weddings, parties, and events so
                     you and your guests travel worry-free.
                   </p>
-                  <button className="ad-jad-awdl-wdk" style={myFont.style}>
-                    Book Now
-                  </button>
+                  <Link href={"/service"}>
+                    <button className="ad-jad-awdl-wdk" style={myFont.style}>
+                      Book Now
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div className="pad-ac-aidjn-awnd-ka-cadd" style={myFont.style}>
@@ -398,9 +404,11 @@ const Homepage = () => {
                     Enjoy stress-free long journeys with our reliable cabs.
                     Comfort, safety, and punctuality every mile.
                   </p>
-                  <button className="ad-jad-awdl-wdk" style={myFont.style}>
-                    Book Now
-                  </button>
+                  <Link href={"/service"}>
+                    <button className="ad-jad-awdl-wdk" style={myFont.style}>
+                      Book Now
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -529,12 +537,14 @@ const Homepage = () => {
                   </div>
 
                   <div className="fxlaf-ajkbdad-adjks">
-                    <button
-                      className="dwadad-daldnkav-apdnadml-sv"
-                      style={myFont.style}
-                    >
-                      Book A Ride
-                    </button>
+                    <Link href={"/service"}>
+                      <button
+                        className="dwadad-daldnkav-apdnadml-sv"
+                        style={myFont.style}
+                      >
+                        Book A Ride
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -573,12 +583,14 @@ const Homepage = () => {
               ride, a luxury car experience, or a long outstation trip,
               RoadTrip.co.in has the right solution for you.
             </p>
-            <button
-              style={myFont.style}
-              className="brdr-btn-at-akjd-awkjjnf-wnd"
-            >
-              Book Now
-            </button>
+            <Link href={"/service"}>
+              <button
+                style={myFont.style}
+                className="brdr-btn-at-akjd-awkjjnf-wnd"
+              >
+                Book Now
+              </button>
+            </Link>
             <div>
               <Image
                 src={BottomCar}
@@ -770,13 +782,21 @@ const Homepage = () => {
               <h2>BOOK YOUR CABFOR YOUR NEXT RIDE!</h2>
             </div>
             <div className="flx-in-fr-btn-at-ftr-uper-side">
-              <button className="btn-at-btm-aoda-ndajm" style={myFont.style}>
-                <Image src={Call} alt="" className="acla-scg-adnljda-adwlwkm" />
-                <h2 className="fnt-szin-adwud-ajl">0401-256-963</h2>
-              </button>
-              <button className="btn-wht-othjd-adwjbnaw" style={myFont.style}>
-                BOOK A RIDE
-              </button>
+              <Link href={"/service"}>
+                <button className="btn-at-btm-aoda-ndajm" style={myFont.style}>
+                  <Image
+                    src={Call}
+                    alt=""
+                    className="acla-scg-adnljda-adwlwkm"
+                  />
+                  <h2 className="fnt-szin-adwud-ajl">0401-256-963</h2>
+                </button>
+              </Link>
+              <Link href={"/service"}>
+                <button className="btn-wht-othjd-adwjbnaw" style={myFont.style}>
+                  BOOK A RIDE
+                </button>
+              </Link>
             </div>
           </div>
         </div>

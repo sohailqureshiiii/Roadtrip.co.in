@@ -4,6 +4,10 @@ import Check from "../../public/check.png";
 import { Navbar } from "../Components/Navbar/navbar";
 import { Contactform } from "../Components/ContactForm/contactform";
 import { Footer } from "../Components/Footer/footer";
+import Wagnor from "../../public/download.png";
+import SwiftDezire from "../../public/maruti-suzuki-dzire-500x261.jpg";
+import Ertiga from "../../public/9c54909b-8c58-40e3-b72b-81205b97bf64-Maruti-Suzuki_Ertiga_Splendid-Silver_1_.png";
+import Inova from "../../public/830_1709020312.jpg";
 import localFont from "next/font/local";
 import "../app/globals.css";
 
@@ -12,6 +16,53 @@ const service = () => {
   return (
     <>
       <Navbar />
+      <div>
+        <h1 style={myFont.style} className="txt-ajda-adlj-lajd-aljndad-adkm">
+          Our Fleets
+        </h1>
+      </div>
+      <div className="flex-of-cars-inadka-d-wjkad">
+        <div style={myFont.style} className="fakj-jakwd-kjadw-jkadw">
+          <Image
+            src={Wagnor}
+            alt=""
+            className="wagno-and-aldna-oawk-haal-kama"
+          />
+          <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Sedan</h1>
+          <p className="hdr-of-cr-at-ajkd-adnd-jhdan">Economy Cabs</p>
+          <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹9/km</h2>
+        </div>
+        <div style={myFont.style} className="fakj-jakwd-kjadw-jkadw">
+          <Image
+            src={SwiftDezire}
+            alt=""
+            className="wagno-and-aldna-oawk-haal-kama"
+          />
+          <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Sedan Plus</h1>
+          <p className="hdr-of-cr-at-ajkd-adnd-jhdan">Premium Economy Cabs</p>
+          <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹11/km</h2>
+        </div>
+        <div style={myFont.style} className="fakj-jakwd-kjadw-jkadw">
+          <Image
+            src={Ertiga}
+            alt=""
+            className="wagno-and-aldna-oawk-haal-kama"
+          />
+          <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Ertiga</h1>
+          <p className="hdr-of-cr-at-ajkd-adnd-jhdan">Perfect for Families</p>
+          <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹15/km</h2>
+        </div>
+        <div style={myFont.style} className="fakj-jakwd-kjadw-jkadw">
+          <Image
+            src={Inova}
+            alt=""
+            className="wagno-and-aldna-oawk-haal-kama"
+          />
+          <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Innova Crysta</h1>
+          <p className="hdr-of-cr-at-ajkd-adnd-jhdan">Group Travel Frendly</p>
+          <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹18/km</h2>
+        </div>
+      </div>
       <div className="bacjksa-ncl-abikal-ahja" id="about">
         <div
           className="displayflexat-ns extra-tp-marg-insdj"
@@ -21,7 +72,7 @@ const service = () => {
             <div className="flx-of-two-coloms-in-mainsection">
               {" "}
               <div className="flx-of-two-coloms-in-mainsection adfsgrsews jus-cnakjnk">
-                {/* <Contactform /> */}
+                <Contactform />
                 <div>
                   <div className="flx-hdr-in-styla-dad">
                     <h1 className="frdst-shedr-at-s-lestft-side">WE PROVIDE</h1>

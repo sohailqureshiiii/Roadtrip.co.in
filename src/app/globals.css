@@ -1218,6 +1218,37 @@ a {
   color: #fff;
 }
 
+.wagno-and-aldna-oawk-haal-kama {
+  width: 17em;
+  border-top-left-radius: 15px;
+  height: 11em;
+  border-top-right-radius: 15px;
+}
+.flex-of-cars-inadka-d-wjkad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  margin-top: 65px;
+}
+
+.txt-ajda-adlj-lajd-aljndad-adkm {
+  text-align: center;
+  margin-top: 3em;
+}
+.hdr-of-cr-at-ajkd-adnd-jhdan {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.fakj-jakwd-kjadw-jkadw {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #00000017;
+  text-align: center;
+  padding: 15px;
+}
+
 /* ----------- Style starts for responsive -------  */
 
 /* ------------ Navbar Responsive ---------  */
@@ -1606,5 +1637,14 @@ a {
   .flx-bx-wd-fjr-akda {
     width: 100%;
     margin-bottom: 60px;
+  }
+
+  .fakj-jakwd-kjadw-jkadw {
+    margin-bottom: 3em;
+  }
+  .flex-of-cars-inadka-d-wjkad {
+    display: block;
+    padding: 25px;
+    margin-top: 15px;
   }
 }
