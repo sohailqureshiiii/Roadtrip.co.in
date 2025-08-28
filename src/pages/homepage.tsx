@@ -121,7 +121,7 @@ const Homepage = () => {
                           style={myFont.style}
                           className="duhwad-akwj-input-at-akjawd"
                           type="text"
-                          placeholder="Your Full Name"
+                          placeholder="From"
                         />
                       </div>
                     </div>
@@ -132,7 +132,7 @@ const Homepage = () => {
                           style={myFont.style}
                           className="duhwad-akwj-input-at-akjawd"
                           type="text"
-                          placeholder="Your Full Name"
+                          placeholder="To"
                         />
                       </div>
                     </div>
@@ -779,7 +779,7 @@ const Homepage = () => {
                   CALL US OR BOOK ONLINE
                 </p>
               </div>
-              <h2>BOOK YOUR CABFOR YOUR NEXT RIDE!</h2>
+              <h2>BOOK YOUR CAB FOR YOUR NEXT RIDE!</h2>
             </div>
             <div className="flx-in-fr-btn-at-ftr-uper-side">
               <Link href={"/service"}>

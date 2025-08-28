@@ -48,38 +48,72 @@ export const Contactform = () => {
                     className="ansbdhjn"
                     style={myFont.style}
                   >
-                    Car One{" "}
+                    Sedan - 3 People
                   </option>
                   <option
                     value="otherOption"
                     className="ansbdhjn"
                     style={myFont.style}
                   >
-                    Car two
+                    Sedan Plus - 4 People
                   </option>
                   <option
                     value="otherOption"
                     className="ansbdhjn"
                     style={myFont.style}
                   >
-                    Car three
+                    Ertiga - 6 People
                   </option>
                   <option
                     value="otherOption"
                     className="ansbdhjn"
                     style={myFont.style}
                   >
-                    Car four
+                    Innova Crysta 6 People
                   </option>
                 </select>
               </div>
               <div className="fr-inpit-acjkasn-box-ssan">
-                <input
-                  style={myFont.style}
+                <select
                   className="Input-for-contact-andother-compo"
-                  type="text"
-                  placeholder="Number of Passenger"
-                />
+                  style={myFont.style}
+                >
+                  <option
+                    value="someOption"
+                    className="ansbdhjn"
+                    style={myFont.style}
+                  >
+                    Select Number of Travelers
+                  </option>
+                  <option
+                    value="someOption"
+                    className="ansbdhjn"
+                    style={myFont.style}
+                  >
+                    2
+                  </option>
+                  <option
+                    value="otherOption"
+                    className="ansbdhjn"
+                    style={myFont.style}
+                  >
+                    3
+                  </option>
+                  <option
+                    value="otherOption"
+                    className="ansbdhjn"
+                    style={myFont.style}
+                  >
+                    4
+                  </option>
+                  <option
+                    value="otherOption"
+                    className="ansbdhjn"
+                    style={myFont.style}
+                  >
+                    6
+                  </option>
+                </select>
               </div>
             </div>
             <div className="flx-insk-dak-alkncak-ckam">
@@ -106,7 +140,7 @@ export const Contactform = () => {
                   style={myFont.style}
                   className="Input-for-contact-andother-compo"
                   type="text"
-                  placeholder="Travel From"
+                  placeholder="Enter Pickup Location"
                 />
               </div>
               <div className="fr-inpit-acjkasn-box-ssan">
@@ -114,7 +148,7 @@ export const Contactform = () => {
                   style={myFont.style}
                   className="Input-for-contact-andother-compo"
                   type="text"
-                  placeholder="Travel To"
+                  placeholder="Enter Drop Location"
                 />
               </div>{" "}
             </div>

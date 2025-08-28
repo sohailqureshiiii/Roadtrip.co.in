@@ -58,15 +58,7 @@ export const Footer = () => {
                       <Link href="/">Home</Link>
                     </div>
                     <div className="links-name-at-footer-secctions-djs">
-                      <Link href="/aboutus" style={myFont.style}>
-                        About Us
-                      </Link>
-                    </div>
-                    <div className="links-name-at-footer-secctions-djs">
-                      <Link href="/services">Services</Link>
-                    </div>
-                    <div className="links-name-at-footer-secctions-djs">
-                      <Link href="/contactus">Contact Us</Link>
+                      <Link href="/service">Services</Link>
                     </div>
                   </div>
                 </div>
