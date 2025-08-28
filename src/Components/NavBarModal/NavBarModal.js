@@ -4,6 +4,7 @@ import Link from "next/link";
 import MainLogo from "../../../public/M-removebg-preview.jpeg";
 import localFont from "next/font/local";
 const myFont = localFont({ src: "../../../Fonts/Montserrat-Medium.ttf" });
+
 const NavModal = (props) => {
   if (!props.visible) {
     return null;
@@ -61,16 +62,8 @@ const NavModal = (props) => {
               <Link href="/">
                 <p className="links-for-mobile-view-innavbar-modla ">Home</p>
               </Link>
-              <Link href="/aboutus">
-                <p className="links-for-mobile-view-innavbar-modla">About Us</p>
-              </Link>
-              <Link href="/services">
+              <Link href="/service">
                 <p className="links-for-mobile-view-innavbar-modla">Services</p>
-              </Link>
-              <Link href="/contactus">
-                <p className="links-for-mobile-view-innavbar-modla">
-                  Contact Us
-                </p>
               </Link>
             </div>
             <div className="pad-at-navigatoio-bxds">

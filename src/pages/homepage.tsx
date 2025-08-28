@@ -153,7 +153,7 @@ const Homepage = () => {
                     PUNE TO MUMBAI ONLY{" "}
                   </h1>
                   <h1 className="hdr-sned-jnad-backald">@ ₹12.75/km </h1>
-                  <h1 className="fr-hedr-first-page-to-padln">Only</h1>
+                  {/* <h1 className="fr-hedr-first-page-to-padln">Only</h1> */}
                 </div>
                 <p className="pajd-aukfjs-awdfnala-wdawodl-faoi">
                   At RoadTrip.co.in, we make travel stress-free with safe,

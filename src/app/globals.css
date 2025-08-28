@@ -199,6 +199,24 @@ a {
 
 /* ------------- navbaar Model -------------  */
 
+.padd-hr-back-jsiuejnnadn {
+  /* padding: 1em 5em 3em 5em; */
+  border-radius: 15px;
+  background: #fff;
+}
+.flslda-adwkd-ajkwa {
+  display: flex;
+  justify-content: right;
+  margin: 15px;
+}
+.fakj-jakwd-kjadw-jkadw {
+  cursor: pointer;
+}
+
+.fosdjk-dfkqlwdm {
+  padding: 0em 2em 2em 2em;
+}
+
 .modalFixedBg {
   position: fixed;
   top: 0;
@@ -1224,6 +1242,10 @@ a {
   height: 11em;
   border-top-right-radius: 15px;
 }
+/* .wagno-and-aldna-oawk-haal-kama:hover {
+  width: 18em;
+  height: 12em;
+} */
 .flex-of-cars-inadka-d-wjkad {
   display: flex;
   justify-content: center;
@@ -1247,6 +1269,10 @@ a {
   border: 1px solid #00000017;
   text-align: center;
   padding: 15px;
+}
+.fakj-jakwd-kjadw-jkadw:hover {
+  box-shadow: none;
+  border: none;
 }
 
 /* ----------- Style starts for responsive -------  */

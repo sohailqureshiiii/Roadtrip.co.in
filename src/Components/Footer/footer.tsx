@@ -87,7 +87,7 @@ export const Footer = () => {
                       <li>+91 94033 97445</li>
                     </div>
                     <div className="links-name-at-footer-secctions-djs">
-                      <li>support@malhotracitytrans.com</li>
+                      <li>support@roadtrip.com</li>
                     </div>
                   </div>
                 </div>

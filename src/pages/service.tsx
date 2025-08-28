@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "../../node_modules/next/image";
 import Check from "../../public/check.png";
 import { Navbar } from "../Components/Navbar/navbar";
 import { Contactform } from "../Components/ContactForm/contactform";
 import { Footer } from "../Components/Footer/footer";
+import ContactFromModal from "../Components/ContactFromModal/ContactFromMoadal";
 import Wagnor from "../../public/download.png";
 import SwiftDezire from "../../public/maruti-suzuki-dzire-500x261.jpg";
 import Ertiga from "../../public/9c54909b-8c58-40e3-b72b-81205b97bf64-Maruti-Suzuki_Ertiga_Splendid-Silver_1_.png";
@@ -13,6 +14,7 @@ import "../app/globals.css";
 
 const myFont = localFont({ src: "../../Fonts/Montserrat-Medium.ttf" });
 const service = () => {
+  const [show, setShow] = useState(false);
   return (
     <>
       <Navbar />
@@ -22,7 +24,11 @@ const service = () => {
         </h1>
       </div>
       <div className="flex-of-cars-inadka-d-wjkad">
-        <div style={myFont.style} className="fakj-jakwd-kjadw-jkadw">
+        <div
+          style={myFont.style}
+          className="fakj-jakwd-kjadw-jkadw"
+          onClick={() => setShow(true)}
+        >
           <Image
             src={Wagnor}
             alt=""
@@ -32,7 +38,11 @@ const service = () => {
           <p className="hdr-of-cr-at-ajkd-adnd-jhdan">Economy Cabs</p>
           <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹9/km</h2>
         </div>
-        <div style={myFont.style} className="fakj-jakwd-kjadw-jkadw">
+        <div
+          style={myFont.style}
+          className="fakj-jakwd-kjadw-jkadw"
+          onClick={() => setShow(true)}
+        >
           <Image
             src={SwiftDezire}
             alt=""
@@ -42,7 +52,11 @@ const service = () => {
           <p className="hdr-of-cr-at-ajkd-adnd-jhdan">Premium Economy Cabs</p>
           <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹11/km</h2>
         </div>
-        <div style={myFont.style} className="fakj-jakwd-kjadw-jkadw">
+        <div
+          style={myFont.style}
+          className="fakj-jakwd-kjadw-jkadw"
+          onClick={() => setShow(true)}
+        >
           <Image
             src={Ertiga}
             alt=""
@@ -52,7 +66,11 @@ const service = () => {
           <p className="hdr-of-cr-at-ajkd-adnd-jhdan">Perfect for Families</p>
           <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹15/km</h2>
         </div>
-        <div style={myFont.style} className="fakj-jakwd-kjadw-jkadw">
+        <div
+          style={myFont.style}
+          className="fakj-jakwd-kjadw-jkadw"
+          onClick={() => setShow(true)}
+        >
           <Image
             src={Inova}
             alt=""
@@ -156,6 +174,7 @@ const service = () => {
         </div>
       </div>
       <Footer />
+      <ContactFromModal visible={show} onClose={() => setShow(false)} />
     </>
   );
 };
