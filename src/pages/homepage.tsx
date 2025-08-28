@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "../../node_modules/next/image";
 import FirstArrow from "../../public/360_F_922418500_CmA5U5bXPkEg5QjXGokWwJ6ObsEjTxRT.jpg";
 import SecoundArrow from "../../public/360_F_922418500_CmA5U5bXPkEg5QjXGokWwJ6ObsEjTxRT.jpg";
@@ -16,6 +16,10 @@ import Luxuxrycabs from "../../public/luxurycabsservice.webp";
 import Maxycabs from "../../public/Vellfire.jpg";
 import SUVcabs from "../../public/innova.png";
 import BottomCar from "../../public/waesfgb.png";
+import Wagnor from "../../public/download.png";
+import SwiftDezire from "../../public/maruti-suzuki-dzire-500x261.jpg";
+import Ertiga from "../../public/9c54909b-8c58-40e3-b72b-81205b97bf64-Maruti-Suzuki_Ertiga_Splendid-Silver_1_.png";
+import Inova from "../../public/830_1709020312.jpg";
 import Check from "../../public/check.png";
 import CustomerOne from "../../public/customepone.jpg";
 import Customertwo from "../../public/customerthree.jpg";
@@ -29,67 +33,18 @@ import { Navbar } from "../Components/Navbar/navbar";
 import { Contactform } from "../Components/ContactForm/contactform";
 import { Footer } from "../Components/Footer/footer";
 import Link from "../../node_modules/next/link";
+import ContactFromModal from "@/Components/ContactFromModal/ContactFromMoadal";
 
 const myFont = localFont({ src: "../../Fonts/Montserrat-Medium.ttf" });
 const Homepage = () => {
+  const [show, setShow] = useState(false);
+
   return (
     <>
       <div>
         <Navbar />
       </div>
-      {/* ------------- Section one -----------  */}
-      {/* <div>
-        <Image
-          src={BackgroundImage}
-          alt=""
-          className="Backround-image-for-home-aifdsj"
-        />
 
-        <div className="displayflexat-ns ">
-          <div className="header-layout-at-main-section">
-            <div className="special-padding-nd-top-senkjc">
-              <h1
-                data-aos="fade-up"
-                className="headr-for-webste-in-trensport-nalhotra"
-                style={myFont.style}
-              >
-                Your Journey <br />
-                Our Priority
-              </h1>
-              <div className="flx-indc-aikjdna">
-                <p className="para-cete-rherd-aloknowa" data-aos="fade-up">
-                  Welcome to Malhotra CityTrans Pvt Ltd, we specialize in
-                  providing safe, reliable, and efficient transportation
-                  solutions for corporate employees. Our advanced Employee
-                  Transportation Management system ensures seamless travel
-                  experiences, enhancing productivity while prioritizing
-                  employee safety and convenience.
-                </p>
-              </div>
-              <div className="flx-indc-aikjdna spamcieb-betwwedkj">
-                <Link href={"/contactus"}>
-                  <button
-                    style={myFont.style}
-                    className="button-for-cntct-us-sonf"
-                    data-aos="fade-up"
-                  >
-                    Contact Us
-                  </button>
-                </Link>
-                <Link href={"/aboutus"}>
-                  <button
-                    className="btn-frrr-knw-mre-at-sdjn"
-                    data-aos="fade-up"
-                    style={myFont.style}
-                  >
-                    Know More
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>{" "}
-        </div>
-      </div> */}
       <div className="bacjksa-ncl-abikal-ahja">
         <div>
           <Image src={Backgdneka} alt="" className="fixed-image-ataghdjhkwaj" />
@@ -603,7 +558,7 @@ const Homepage = () => {
         <div className="psdas-dhjadwkjnlk">
           <div>
             <div className="di-flx-fr-bx-adwn-awjkdn">
-              <div className="bxk-white-at-fr-bx-ajdk">
+              {/* <div className="bxk-white-at-fr-bx-ajdk">
                 <Image
                   src={Standardcabs}
                   alt=""
@@ -618,8 +573,24 @@ const Homepage = () => {
                 <h3 className="jad-aowij-awnd-awdl" style={myFont.style}>
                   STANDARD CABS
                 </h3>
+              </div> */}
+              <div
+                style={myFont.style}
+                className="fakj-jakwd-kjadw-jkadw"
+                onClick={() => setShow(true)}
+              >
+                <Image
+                  src={Wagnor}
+                  alt=""
+                  className="wagno-and-aldna-oawk-haal-kama"
+                />
+                <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Innova Crysta</h1>
+                <p className="hdr-of-cr-at-ajkd-adnd-jhdan">
+                  Group Travel Frendly
+                </p>
+                <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹18/km</h2>
               </div>
-              <div className="bxk-white-at-fr-bx-ajdk">
+              {/* <div className="bxk-white-at-fr-bx-ajdk">
                 <Image
                   src={Luxuxrycabs}
                   alt=""
@@ -634,10 +605,26 @@ const Homepage = () => {
                 <h3 className="jad-aowij-awnd-awdl" style={myFont.style}>
                   LUXURY CABS
                 </h3>
+              </div> */}
+              <div
+                style={myFont.style}
+                className="fakj-jakwd-kjadw-jkadw"
+                onClick={() => setShow(true)}
+              >
+                <Image
+                  src={SwiftDezire}
+                  alt=""
+                  className="wagno-and-aldna-oawk-haal-kama"
+                />
+                <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Sedan Plus</h1>
+                <p className="hdr-of-cr-at-ajkd-adnd-jhdan">
+                  Premium Economy Cabs
+                </p>
+                <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹11/km</h2>
               </div>
             </div>
             <div className="di-flx-fr-bx-adwn-awjkdn">
-              <div className="bxk-white-at-fr-bx-ajdk">
+              {/* <div className="bxk-white-at-fr-bx-ajdk">
                 <Image
                   src={Maxycabs}
                   alt=""
@@ -652,8 +639,24 @@ const Homepage = () => {
                 <h3 className="jad-aowij-awnd-awdl" style={myFont.style}>
                   STANDARD CABS
                 </h3>
+              </div> */}
+              <div
+                style={myFont.style}
+                className="fakj-jakwd-kjadw-jkadw"
+                onClick={() => setShow(true)}
+              >
+                <Image
+                  src={Ertiga}
+                  alt=""
+                  className="wagno-and-aldna-oawk-haal-kama"
+                />
+                <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Ertiga</h1>
+                <p className="hdr-of-cr-at-ajkd-adnd-jhdan">
+                  Perfect for Families
+                </p>
+                <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹15/km</h2>
               </div>
-              <div className="bxk-white-at-fr-bx-ajdk">
+              {/* <div className="bxk-white-at-fr-bx-ajdk">
                 <Image
                   src={SUVcabs}
                   alt=""
@@ -668,6 +671,22 @@ const Homepage = () => {
                 <h3 className="jad-aowij-awnd-awdl" style={myFont.style}>
                   SUV CABS
                 </h3>
+              </div> */}
+              <div
+                style={myFont.style}
+                className="fakj-jakwd-kjadw-jkadw"
+                onClick={() => setShow(true)}
+              >
+                <Image
+                  src={Inova}
+                  alt=""
+                  className="wagno-and-aldna-oawk-haal-kama"
+                />
+                <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Innova Crysta</h1>
+                <p className="hdr-of-cr-at-ajkd-adnd-jhdan">
+                  Group Travel Frendly
+                </p>
+                <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹18/km</h2>
               </div>
             </div>
           </div>
@@ -804,6 +823,7 @@ const Homepage = () => {
       <div>
         <Footer />
       </div>
+      <ContactFromModal visible={show} onClose={() => setShow(false)} />
     </>
   );
 };

@@ -214,7 +214,9 @@ a {
 }
 
 .fosdjk-dfkqlwdm {
-  padding: 0em 2em 2em 2em;
+  padding: 0 2em 2em;
+  height: 30em;
+  overflow-y: scroll;
 }
 
 .modalFixedBg {
@@ -792,7 +794,7 @@ a {
 }
 .img-at-sec-t-a-bx-afnak {
   width: 20em;
-  height: 13em;
+  height: 15em;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -986,14 +988,14 @@ a {
 
 .di-flx-fr-bx-adwn-awjkdn {
   justify-content: center;
-  gap: 5em;
-  margin-bottom: 5em;
+  gap: 2em;
+  margin-bottom: 2em;
   display: flex;
 }
 .psdas-dhjadwkjnlk {
   justify-content: center;
   width: 65%;
-  padding-top: 5em;
+  padding-top: 3em;
   display: flex;
 }
 
@@ -1269,6 +1271,7 @@ a {
   border: 1px solid #00000017;
   text-align: center;
   padding: 15px;
+  background: #fff;
 }
 .fakj-jakwd-kjadw-jkadw:hover {
   box-shadow: none;
