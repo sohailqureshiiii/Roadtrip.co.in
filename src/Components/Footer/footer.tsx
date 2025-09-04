@@ -70,16 +70,16 @@ export const Footer = () => {
                   <div className="botom-line-of-luse-fil-links-snidr"></div>
                   <div>
                     <div className="links-name-at-footer-secctions-djs">
-                      <li>+91 98226 95309</li>
+                      <li>+91 97657 66108 </li>
                     </div>
                     <div className="links-name-at-footer-secctions-djs">
-                      <li>+91 92847 90752</li>
+                      <li>+91 99605 03025</li>
                     </div>
                     <div className="links-name-at-footer-secctions-djs">
-                      <li>+91 94033 97445</li>
+                      <li>+91 917554 5760</li>
                     </div>
                     <div className="links-name-at-footer-secctions-djs">
-                      <li>support@roadtrip.com</li>
+                      <li>roadtripcabs@gmail.com</li>
                     </div>
                   </div>
                 </div>
@@ -101,8 +101,8 @@ export const Footer = () => {
                     </div>
                     <div>
                       <p className="adress-para-at-footer-sd">
-                        Plot No. 75, Sarthank Green Society, Gat No. 1487 Diamod
-                        Water Park Road, Wagholi, Pune - 412207
+                        Sr. No 13 Satavwadi, Opposite Gliding Center, Hadapsar,
+                        Pune 411028.
                       </p>
                     </div>
                   </div>

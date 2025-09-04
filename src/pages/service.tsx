@@ -34,9 +34,9 @@ const service = () => {
             alt=""
             className="wagno-and-aldna-oawk-haal-kama"
           />
-          <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Sedan</h1>
+          <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Sedan- Hatchback</h1>
           <p className="hdr-of-cr-at-ajkd-adnd-jhdan">Economy Cabs</p>
-          <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹9/km</h2>
+          <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹12/km</h2>
         </div>
         <div
           style={myFont.style}
@@ -48,9 +48,9 @@ const service = () => {
             alt=""
             className="wagno-and-aldna-oawk-haal-kama"
           />
-          <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Sedan Plus</h1>
+          <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Sedan plus- Sedan</h1>
           <p className="hdr-of-cr-at-ajkd-adnd-jhdan">Premium Economy Cabs</p>
-          <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹11/km</h2>
+          <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹13/km</h2>
         </div>
         <div
           style={myFont.style}
@@ -62,7 +62,7 @@ const service = () => {
             alt=""
             className="wagno-and-aldna-oawk-haal-kama"
           />
-          <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Ertiga</h1>
+          <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Ertiga- SUV</h1>
           <p className="hdr-of-cr-at-ajkd-adnd-jhdan">Perfect for Families</p>
           <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹15/km</h2>
         </div>
@@ -76,9 +76,11 @@ const service = () => {
             alt=""
             className="wagno-and-aldna-oawk-haal-kama"
           />
-          <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Innova Crysta</h1>
+          <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">
+            InnovaCrysta- Prime SUV
+          </h1>
           <p className="hdr-of-cr-at-ajkd-adnd-jhdan">Group Travel Frendly</p>
-          <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹18/km</h2>
+          <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹21/km</h2>
         </div>
       </div>
       <div className="bacjksa-ncl-abikal-ahja" id="about">

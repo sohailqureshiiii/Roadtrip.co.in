@@ -34,7 +34,7 @@ export const Navbar = () => {
                 alt=""
                 className="acla-scg-adnljda-adwlwkm"
               />{" "}
-              0401-256-963
+              +91 917554 5760
             </button>
             <Link href="/Services">
               <button

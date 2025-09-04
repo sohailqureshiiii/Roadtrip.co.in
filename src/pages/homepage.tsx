@@ -584,11 +584,13 @@ const Homepage = () => {
                   alt=""
                   className="wagno-and-aldna-oawk-haal-kama"
                 />
-                <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Innova Crysta</h1>
+                <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">
+                  Sedan- Hatchback
+                </h1>
                 <p className="hdr-of-cr-at-ajkd-adnd-jhdan">
                   Group Travel Frendly
                 </p>
-                <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹18/km</h2>
+                <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹12/km</h2>
               </div>
               {/* <div className="bxk-white-at-fr-bx-ajdk">
                 <Image
@@ -616,11 +618,13 @@ const Homepage = () => {
                   alt=""
                   className="wagno-and-aldna-oawk-haal-kama"
                 />
-                <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Sedan Plus</h1>
+                <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">
+                  Sedan plus- Sedan
+                </h1>
                 <p className="hdr-of-cr-at-ajkd-adnd-jhdan">
                   Premium Economy Cabs
                 </p>
-                <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹11/km</h2>
+                <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹13/km</h2>
               </div>
             </div>
             <div className="di-flx-fr-bx-adwn-awjkdn">
@@ -650,7 +654,7 @@ const Homepage = () => {
                   alt=""
                   className="wagno-and-aldna-oawk-haal-kama"
                 />
-                <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Ertiga</h1>
+                <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Ertiga- SUV</h1>
                 <p className="hdr-of-cr-at-ajkd-adnd-jhdan">
                   Perfect for Families
                 </p>
@@ -682,11 +686,13 @@ const Homepage = () => {
                   alt=""
                   className="wagno-and-aldna-oawk-haal-kama"
                 />
-                <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">Innova Crysta</h1>
+                <h1 className="hdr-of-cr-at-ajkd-adnd-jhdan">
+                  InnovaCrysta- Prime SUV
+                </h1>
                 <p className="hdr-of-cr-at-ajkd-adnd-jhdan">
                   Group Travel Frendly
                 </p>
-                <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹18/km</h2>
+                <h2 className="hdr-of-cr-at-ajkd-adnd-jhdan"> ₹21/km</h2>
               </div>
             </div>
           </div>
@@ -808,7 +814,7 @@ const Homepage = () => {
                     alt=""
                     className="acla-scg-adnljda-adwlwkm"
                   />
-                  <h2 className="fnt-szin-adwud-ajl">0401-256-963</h2>
+                  <h2 className="fnt-szin-adwud-ajl">+91 91755 45760</h2>
                 </button>
               </Link>
               <Link href={"/service"}>

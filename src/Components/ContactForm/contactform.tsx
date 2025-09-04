@@ -48,28 +48,28 @@ export const Contactform = () => {
                     className="ansbdhjn"
                     style={myFont.style}
                   >
-                    Sedan - 3 People
+                    Sedan- Hatchback - 3 People
                   </option>
                   <option
                     value="otherOption"
                     className="ansbdhjn"
                     style={myFont.style}
                   >
-                    Sedan Plus - 4 People
+                    Sedan plus- Sedan - 4 People
                   </option>
                   <option
                     value="otherOption"
                     className="ansbdhjn"
                     style={myFont.style}
                   >
-                    Ertiga - 6 People
+                    Ertiga- SUV - 6 People
                   </option>
                   <option
                     value="otherOption"
                     className="ansbdhjn"
                     style={myFont.style}
                   >
-                    Innova Crysta 6 People
+                    InnovaCrysta- Prime SUV - 6 People
                   </option>
                 </select>
               </div>
