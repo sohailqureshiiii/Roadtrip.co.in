@@ -692,7 +692,28 @@ a {
   background: #449aff;
   letter-spacing: 1px;
   border: none;
+  transition: background-color 0.3s ease;
 }
+
+.bnt-css-fr-book-now-sta:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.loader {
+  border: 3px solid rgba(255, 255, 255, 0.3); /* Light transparent white */
+  border-top: 3px solid white; /* White */
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
 
 .flx-hdr-in-styla-dad {
   display: flex;
